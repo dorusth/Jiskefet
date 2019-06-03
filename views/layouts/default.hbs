@@ -3,10 +3,10 @@
 {{> head }}
 <body class="{{template}}">
     <div class="container">
-        <h1>als dit rood is de css goed gelinked</h1>
         {{{ body }}}
     </div>
-    <script src="js/index.js"></script>
+    <script src="js/index.js" type='module' ></script>
+    <script src="/socket.io/socket.io.js"></script>
 </body>
 {{> footer }}
 
