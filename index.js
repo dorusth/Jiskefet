@@ -1,13 +1,13 @@
 const express = require('express')
 const app = express()
-const port = 3000
+const port = process.env.PORT || 3030
 const socket = require('socket.io');
-const hbs = require('express-handlebars');
+const hbs = require('express-handlebars')
 const bodyParser = require('body-parser')
 
 // server listening on port 3000
-const server = app.listen(process.env.PORT || 3000, _ => {
-    console.log("listening on port 3000")
+const server = app.listen(port , _ => {
+    console.log("listening on port" + port)
 })
 
 // set up socket io
@@ -35,5 +35,3 @@ app
     .use(express.static('public/'))
     // routes
     .get('/', indexRoute)
-
-
