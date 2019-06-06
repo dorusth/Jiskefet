@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "next -p 3030",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
@@ -24,8 +26,17 @@
     "nodemon": "^1.19.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-scripts": "^3.0.1",
     "request": "^2.88.0",
     "socket.io": "^2.2.0",
     "socket.io-client": "^2.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@storybook/addon-actions": "^5.1.1",
+    "@storybook/addon-links": "^5.1.1",
+    "@storybook/addons": "^5.1.1",
+    "@storybook/react": "^5.1.1",
+    "babel-loader": "^8.0.6"
   }
 }
