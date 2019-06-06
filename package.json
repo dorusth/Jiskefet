@@ -20,8 +20,15 @@
   },
   "homepage": "https://github.com/dorusth/Jiskefet#readme",
   "dependencies": {
+<<<<<<< HEAD
     "next": "^8.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
+=======
+    "nodemon": "^1.19.1",
+    "request": "^2.88.0",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0"
+>>>>>>> 4cba60c56796bd24b2dc5affb2aa7654773364b3
   }
 }
