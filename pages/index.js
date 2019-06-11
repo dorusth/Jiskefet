@@ -7,18 +7,129 @@ const Index = () => (
 		<div className="container row">
 			<div className="row col s6">
 				<div className="col s12 z-depth-1 rounded">
-					<h3 className="center">Recent logs</h3>
-			    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula justo, tincidunt quis tortor sed, eleifend tempor lorem. Suspendisse tincidunt maximus viverra. Donec commodo pulvinar tortor ac finibus. Aliquam quam mi, egestas non urna eget, pretium cursus purus. Proin facilisis elit id ex sodales dignissim. Etiam volutpat quis eros id tristique. Maecenas nisi dolor, consectetur sed laoreet sed, suscipit non mi. In ornare interdum pulvinar. Aliquam lacus ligula, lacinia vitae semper id, aliquam sit amet quam.</p>
+					<h3 className="center">Most Recent logs</h3>
+			    	<table className="highlight">
+						<thead>
+							<tr>
+								<th>Title</th>
+								<th>Author</th>
+								<th>Time</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Log #1</td>
+								<td>Bas Smit</td>
+								<td>09:00 PM</td>
+							</tr>
+							<tr>
+								<td>Log #2</td>
+								<td>Bas Smit</td>
+								<td>09:00 PM</td>
+							</tr>
+							<tr>
+								<td>Log #3</td>
+								<td>Bas Smit</td>
+								<td>09:00 PM</td>
+							</tr>
+						</tbody>
+					</table>
 			    </div>
 				<div className="col s12 z-depth-1 rounded">
 					<h3 className="center">Failed logs</h3>
-			    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula justo, tincidunt quis tortor sed, eleifend tempor lorem. Suspendisse tincidunt maximus viverra. Donec commodo pulvinar tortor ac finibus. Aliquam quam mi, egestas non urna eget, pretium cursus purus. Proin facilisis elit id ex sodales dignissim. Etiam volutpat quis eros id tristique. Maecenas nisi dolor, consectetur sed laoreet sed, suscipit non mi. In ornare interdum pulvinar. Aliquam lacus ligula, lacinia vitae semper id, aliquam sit amet quam.</p>
+					<table className="highlight">
+						<thead>
+							<tr>
+								<th>Title</th>
+								<th>Author</th>
+								<th>Time</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Log #1</td>
+								<td>Bas Smit</td>
+								<td>09:00 PM</td>
+							</tr>
+							<tr>
+								<td>Log #2</td>
+								<td>Bas Smit</td>
+								<td>09:00 PM</td>
+							</tr>
+							<tr>
+								<td>Log #3</td>
+								<td>Bas Smit</td>
+								<td>09:00 PM</td>
+							</tr>
+						</tbody>
+					</table>
 			    </div>
+				<div className="col s12 z-depth-1 rounded">
+					<h3 className="center">Failed tests</h3>
+					<table className="highlight">
+						<thead>
+							<tr>
+								<th>Title</th>
+								<th>Author</th>
+								<th>Time</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Log #1</td>
+								<td>Bas Smit</td>
+								<td>09:00 PM</td>
+							</tr>
+							<tr>
+								<td>Log #2</td>
+								<td>Bas Smit</td>
+								<td>09:00 PM</td>
+							</tr>
+							<tr>
+								<td>Log #3</td>
+								<td>Bas Smit</td>
+								<td>09:00 PM</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div className="col s12 z-depth-1 rounded">
+					<h3 className="center">Failed logs</h3>
+					<table className="highlight">
+						<thead>
+							<tr>
+								<th>Title</th>
+								<th>Author</th>
+								<th>Time</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Log #1</td>
+								<td>Bas Smit</td>
+								<td>09:00 PM</td>
+							</tr>
+							<tr>
+								<td>Log #2</td>
+								<td>Bas Smit</td>
+								<td>09:00 PM</td>
+							</tr>
+							<tr>
+								<td>Log #3</td>
+								<td>Bas Smit</td>
+								<td>09:00 PM</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
 			</div>
 			<div className="row col s6">
 				<div className="col s12 z-depth-1 rounded">
 					<h3 className="center">New log</h3>
-			    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula justo, tincidunt quis tortor sed, eleifend tempor lorem. Suspendisse tincidunt maximus viverra. Donec commodo pulvinar tortor ac finibus. Aliquam quam mi, egestas non urna eget, pretium cursus purus. Proin facilisis elit id ex sodales dignissim. Etiam volutpat quis eros id tristique. Maecenas nisi dolor, consectetur sed laoreet sed, suscipit non mi. In ornare interdum pulvinar. Aliquam lacus ligula, lacinia vitae semper id, aliquam sit amet quam.</p>
+					<form className="col s12" action="" method="post">
+							<label for="log_name">Enter a title</label>
+							<input placeholder="title for log" type="text" id="log_name"></input>
+					</form>
 				</div>
 			</div>
 		</div>
