@@ -17,11 +17,6 @@ const Nav = () => (
 	      </ul>
 	    </div>
  	</nav>
-	<style jsx>{`
-		nav{
-			margin-bottom:2em;
-		}
-	`}</style>
 </div>
 );
 
