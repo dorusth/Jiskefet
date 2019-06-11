@@ -15,9 +15,22 @@ class Main extends React.Component {
 		 <Nav></Nav>
 		 {this.props.children}
 		 <style global jsx>{`
-			 .rounded{
-				 border-radius: 5px;
-			 }
+			.container{
+				max-width: 95%;
+			}
+			@media only screen and (min-width: 993px){
+				.container {
+					width: 100%;
+				}
+			}
+			@media only screen and (min-width: 601px){
+				.container {
+					width: 100%;
+				}
+			}
+			.rounded{
+				border-radius: 5px;
+			}
 	 	`}
 		 </style>
 	 </div>
