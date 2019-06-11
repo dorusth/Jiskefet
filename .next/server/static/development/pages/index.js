@@ -108,7 +108,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/dorustenhaaf/Documents/CMD/minor webdev/meesterproef/Jiskefet/components/nav.js";
+var _jsxFileName = "/Users/marcelfleuren/Desktop/cern/Jiskefet/components/nav.js";
 
 
 
@@ -297,7 +297,7 @@ var Nav = function Nav() {
   }, "Subsystems overview")))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "2380130759",
     __self: this
-  }, "nav.jsx-2380130759{margin-bottom:2em;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9kb3J1c3RlbmhhYWYvRG9jdW1lbnRzL0NNRC9taW5vciB3ZWJkZXYvbWVlc3RlcnByb2VmL0ppc2tlZmV0L2NvbXBvbmVudHMvbmF2LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQW1CYSxBQUdxQixrQkFDbEIiLCJmaWxlIjoiL1VzZXJzL2RvcnVzdGVuaGFhZi9Eb2N1bWVudHMvQ01EL21pbm9yIHdlYmRldi9tZWVzdGVycHJvZWYvSmlza2VmZXQvY29tcG9uZW50cy9uYXYuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnXG5cbmNvbnN0IE5hdiA9ICgpID0+IChcbjxkaXY+XG5cdDxuYXYgY2xhc3NOYW1lPVwiaW5kaWdvIGxpZ2h0ZW4tMVwiPlxuXHQgICAgPGRpdiBjbGFzc05hbWU9XCJuYXYtd3JhcHBlciBpbmRpZ28gbGlnaHRlbi0xIGNvbnRhaW5lclwiPlxuXHQgICAgICA8YSBocmVmPVwiL1wiIGNsYXNzTmFtZT1cImJyYW5kLWxvZ29cIj5KaXNrZWZldDwvYT5cblx0XHQgIDx1bCBpZD1cIm5hdi1tb2JpbGVcIiBjbGFzc05hbWU9XCJyaWdodCBoaWRlLW9uLW1lZC1hbmQtZG93blwiPlxuXHRcdCAgXHQ8bGk+PGEgaHJlZj1cInNhc3MuaHRtbFwiPjxpIGNsYXNzTmFtZT1cIm1hdGVyaWFsLWljb25zXCI+bm90aWZpY2F0aW9uczwvaT48L2E+PC9saT5cblx0XHQgIFx0PGxpPjxMaW5rIGhyZWY9XCIjXCI+PGEgY2xhc3NOYW1lPVwiZHJvcGRvd24tdHJpZ2dlclwiIGRhdGEtdGFyZ2V0PVwiZHJvcGRvd24xXCI+RHJvcGRvd248aSBjbGFzc05hbWU9XCJtYXRlcmlhbC1pY29ucyByaWdodFwiPmFycm93X2Ryb3BfZG93bjwvaT48L2E+PC9MaW5rPjwvbGk+XG5cdCAgICAgIDwvdWw+XG5cdCAgICAgIDx1bCBpZD1cIm5hdi1tb2JpbGVcIiBjbGFzc05hbWU9XCJyaWdodCBoaWRlLW9uLW1lZC1hbmQtZG93blwiPlxuXHQgICAgICAgIDxsaT48TGluayBocmVmPVwiL1wiPjxhPkRhc2hib2FyZDwvYT48L0xpbms+PC9saT5cblx0ICAgICAgICA8bGk+PExpbmsgaHJlZj1cIi9sb2dzXCI+PGE+TG9nIG92ZXJ2aWV3PC9hPjwvTGluaz48L2xpPlxuXHQgICAgICAgIDxsaT48TGluayBocmVmPVwiL3J1bnNcIj48YT5SdW4gb3ZlcnZpZXc8L2E+PC9MaW5rPjwvbGk+XG5cdFx0XHQ8bGk+PExpbmsgaHJlZj1cIi9zdWJzeXN0ZW1zXCI+PGE+U3Vic3lzdGVtcyBvdmVydmlldzwvYT48L0xpbms+PC9saT5cblx0ICAgICAgPC91bD5cblx0ICAgIDwvZGl2PlxuIFx0PC9uYXY+XG5cdDxzdHlsZSBqc3g+e2Bcblx0XHRuYXZ7XG5cdFx0XHRtYXJnaW4tYm90dG9tOjJlbTtcblx0XHR9XG5cdGB9PC9zdHlsZT5cbjwvZGl2PlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgTmF2O1xuIl19 */\n/*@ sourceURL=/Users/dorustenhaaf/Documents/CMD/minor webdev/meesterproef/Jiskefet/components/nav.js */"));
+  }, "nav.jsx-2380130759{margin-bottom:2em;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYXJjZWxmbGV1cmVuL0Rlc2t0b3AvY2Vybi9KaXNrZWZldC9jb21wb25lbnRzL25hdi5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtQmEsQUFHcUIsa0JBQ2xCIiwiZmlsZSI6Ii9Vc2Vycy9tYXJjZWxmbGV1cmVuL0Rlc2t0b3AvY2Vybi9KaXNrZWZldC9jb21wb25lbnRzL25hdi5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluaydcblxuY29uc3QgTmF2ID0gKCkgPT4gKFxuPGRpdj5cblx0PG5hdiBjbGFzc05hbWU9XCJpbmRpZ28gbGlnaHRlbi0xXCI+XG5cdCAgICA8ZGl2IGNsYXNzTmFtZT1cIm5hdi13cmFwcGVyIGluZGlnbyBsaWdodGVuLTEgY29udGFpbmVyXCI+XG5cdCAgICAgIDxhIGhyZWY9XCIvXCIgY2xhc3NOYW1lPVwiYnJhbmQtbG9nb1wiPkppc2tlZmV0PC9hPlxuXHRcdCAgPHVsIGlkPVwibmF2LW1vYmlsZVwiIGNsYXNzTmFtZT1cInJpZ2h0IGhpZGUtb24tbWVkLWFuZC1kb3duXCI+XG5cdFx0ICBcdDxsaT48YSBocmVmPVwic2Fzcy5odG1sXCI+PGkgY2xhc3NOYW1lPVwibWF0ZXJpYWwtaWNvbnNcIj5ub3RpZmljYXRpb25zPC9pPjwvYT48L2xpPlxuXHRcdCAgXHQ8bGk+PExpbmsgaHJlZj1cIiNcIj48YSBjbGFzc05hbWU9XCJkcm9wZG93bi10cmlnZ2VyXCIgZGF0YS10YXJnZXQ9XCJkcm9wZG93bjFcIj5Ecm9wZG93bjxpIGNsYXNzTmFtZT1cIm1hdGVyaWFsLWljb25zIHJpZ2h0XCI+YXJyb3dfZHJvcF9kb3duPC9pPjwvYT48L0xpbms+PC9saT5cblx0ICAgICAgPC91bD5cblx0ICAgICAgPHVsIGlkPVwibmF2LW1vYmlsZVwiIGNsYXNzTmFtZT1cInJpZ2h0IGhpZGUtb24tbWVkLWFuZC1kb3duXCI+XG5cdCAgICAgICAgPGxpPjxMaW5rIGhyZWY9XCIvXCI+PGE+RGFzaGJvYXJkPC9hPjwvTGluaz48L2xpPlxuXHQgICAgICAgIDxsaT48TGluayBocmVmPVwiL2xvZ3NcIj48YT5Mb2cgb3ZlcnZpZXc8L2E+PC9MaW5rPjwvbGk+XG5cdCAgICAgICAgPGxpPjxMaW5rIGhyZWY9XCIvcnVuc1wiPjxhPlJ1biBvdmVydmlldzwvYT48L0xpbms+PC9saT5cblx0XHRcdDxsaT48TGluayBocmVmPVwiL3N1YnN5c3RlbXNcIj48YT5TdWJzeXN0ZW1zIG92ZXJ2aWV3PC9hPjwvTGluaz48L2xpPlxuXHQgICAgICA8L3VsPlxuXHQgICAgPC9kaXY+XG4gXHQ8L25hdj5cblx0PHN0eWxlIGpzeD57YFxuXHRcdG5hdntcblx0XHRcdG1hcmdpbi1ib3R0b206MmVtO1xuXHRcdH1cblx0YH08L3N0eWxlPlxuPC9kaXY+XG4pO1xuXG5leHBvcnQgZGVmYXVsdCBOYXY7XG4iXX0= */\n/*@ sourceURL=/Users/marcelfleuren/Desktop/cern/Jiskefet/components/nav.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Nav);
@@ -330,7 +330,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/dorustenhaaf/Documents/CMD/minor webdev/meesterproef/Jiskefet/layouts/main.js";
+var _jsxFileName = "/Users/marcelfleuren/Desktop/cern/Jiskefet/layouts/main.js";
 
 
 
@@ -414,7 +414,7 @@ function (_React$Component) {
       }), this.props.children, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a, {
         id: "1212136418",
         __self: this
-      }, ".rounded{border-radius:5px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9kb3J1c3RlbmhhYWYvRG9jdW1lbnRzL0NNRC9taW5vciB3ZWJkZXYvbWVlc3RlcnByb2VmL0ppc2tlZmV0L2xheW91dHMvbWFpbi5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFnQnNCLEFBR3dCLGtCQUNuQiIsImZpbGUiOiIvVXNlcnMvZG9ydXN0ZW5oYWFmL0RvY3VtZW50cy9DTUQvbWlub3Igd2ViZGV2L21lZXN0ZXJwcm9lZi9KaXNrZWZldC9sYXlvdXRzL21haW4uanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSGVhZCBmcm9tICduZXh0L2hlYWQnXG5pbXBvcnQgTmF2IGZyb20gJy4uL2NvbXBvbmVudHMvbmF2J1xuXG5cbmNsYXNzIE1haW4gZXh0ZW5kcyBSZWFjdC5Db21wb25lbnQge1xuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuICA8ZGl2PlxuXHRcdCA8SGVhZD5cblx0XHRcdCA8dGl0bGU+Smlza2VmZXQ8L3RpdGxlPlxuXHRcdFx0IDxsaW5rIHJlbD1cInN0eWxlc2hlZXRcIiBocmVmPVwiaHR0cHM6Ly9jZG5qcy5jbG91ZGZsYXJlLmNvbS9hamF4L2xpYnMvbWF0ZXJpYWxpemUvMS4wLjAvY3NzL21hdGVyaWFsaXplLm1pbi5jc3NcIi8+XG5cdFx0XHQgPHNjcmlwdCBzcmM9XCJodHRwczovL2NkbmpzLmNsb3VkZmxhcmUuY29tL2FqYXgvbGlicy9tYXRlcmlhbGl6ZS8xLjAuMC9qcy9tYXRlcmlhbGl6ZS5taW4uanNcIj48L3NjcmlwdD5cblx0XHRcdCA8bGluayBocmVmPVwiaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9pY29uP2ZhbWlseT1NYXRlcmlhbCtJY29uc1wiIHJlbD1cInN0eWxlc2hlZXRcIiAvPlxuXHRcdFx0IDxtZXRhIG5hbWU9XCJ2aWV3cG9ydFwiIGNvbnRlbnQ9XCJpbml0aWFsLXNjYWxlPTEuMCwgd2lkdGg9ZGV2aWNlLXdpZHRoXCIgLz5cblx0XHQgPC9IZWFkPlxuXHRcdCA8TmF2PjwvTmF2PlxuXHRcdCB7dGhpcy5wcm9wcy5jaGlsZHJlbn1cblx0XHQgPHN0eWxlIGdsb2JhbCBqc3g+e2Bcblx0XHRcdCAucm91bmRlZHtcblx0XHRcdFx0IGJvcmRlci1yYWRpdXM6IDVweDtcblx0XHRcdCB9XG5cdCBcdGB9XG5cdFx0IDwvc3R5bGU+XG5cdCA8L2Rpdj5cbiAgfVxufVxuXG5leHBvcnQgZGVmYXVsdCBNYWluXG4iXX0= */\n/*@ sourceURL=/Users/dorustenhaaf/Documents/CMD/minor webdev/meesterproef/Jiskefet/layouts/main.js */"));
+      }, ".rounded{border-radius:5px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYXJjZWxmbGV1cmVuL0Rlc2t0b3AvY2Vybi9KaXNrZWZldC9sYXlvdXRzL21haW4uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBZ0JzQixBQUd3QixrQkFDbkIiLCJmaWxlIjoiL1VzZXJzL21hcmNlbGZsZXVyZW4vRGVza3RvcC9jZXJuL0ppc2tlZmV0L2xheW91dHMvbWFpbi5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkIGZyb20gJ25leHQvaGVhZCdcbmltcG9ydCBOYXYgZnJvbSAnLi4vY29tcG9uZW50cy9uYXYnXG5cblxuY2xhc3MgTWFpbiBleHRlbmRzIFJlYWN0LkNvbXBvbmVudCB7XG4gIHJlbmRlcigpIHtcbiAgICByZXR1cm4gIDxkaXY+XG5cdFx0IDxIZWFkPlxuXHRcdFx0IDx0aXRsZT5KaXNrZWZldDwvdGl0bGU+XG5cdFx0XHQgPGxpbmsgcmVsPVwic3R5bGVzaGVldFwiIGhyZWY9XCJodHRwczovL2NkbmpzLmNsb3VkZmxhcmUuY29tL2FqYXgvbGlicy9tYXRlcmlhbGl6ZS8xLjAuMC9jc3MvbWF0ZXJpYWxpemUubWluLmNzc1wiLz5cblx0XHRcdCA8c2NyaXB0IHNyYz1cImh0dHBzOi8vY2RuanMuY2xvdWRmbGFyZS5jb20vYWpheC9saWJzL21hdGVyaWFsaXplLzEuMC4wL2pzL21hdGVyaWFsaXplLm1pbi5qc1wiPjwvc2NyaXB0PlxuXHRcdFx0IDxsaW5rIGhyZWY9XCJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2ljb24/ZmFtaWx5PU1hdGVyaWFsK0ljb25zXCIgcmVsPVwic3R5bGVzaGVldFwiIC8+XG5cdFx0XHQgPG1ldGEgbmFtZT1cInZpZXdwb3J0XCIgY29udGVudD1cImluaXRpYWwtc2NhbGU9MS4wLCB3aWR0aD1kZXZpY2Utd2lkdGhcIiAvPlxuXHRcdCA8L0hlYWQ+XG5cdFx0IDxOYXY+PC9OYXY+XG5cdFx0IHt0aGlzLnByb3BzLmNoaWxkcmVufVxuXHRcdCA8c3R5bGUgZ2xvYmFsIGpzeD57YFxuXHRcdFx0IC5yb3VuZGVke1xuXHRcdFx0XHQgYm9yZGVyLXJhZGl1czogNXB4O1xuXHRcdFx0IH1cblx0IFx0YH1cblx0XHQgPC9zdHlsZT5cblx0IDwvZGl2PlxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IE1haW5cbiJdfQ== */\n/*@ sourceURL=/Users/marcelfleuren/Desktop/cern/Jiskefet/layouts/main.js */"));
     }
   }]);
 
@@ -1950,7 +1950,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _layouts_main__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../layouts/main */ "./layouts/main.js");
-var _jsxFileName = "/Users/dorustenhaaf/Documents/CMD/minor webdev/meesterproef/Jiskefet/pages/index.js";
+var _jsxFileName = "/Users/marcelfleuren/Desktop/cern/Jiskefet/pages/index.js";
 
 
  // links work with everything
@@ -1990,60 +1990,555 @@ var Index = function Index() {
       lineNumber: 10
     },
     __self: this
-  }, "Recent logs"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Most Recent logs"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("table", {
+    className: "highlight",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula justo, tincidunt quis tortor sed, eleifend tempor lorem. Suspendisse tincidunt maximus viverra. Donec commodo pulvinar tortor ac finibus. Aliquam quam mi, egestas non urna eget, pretium cursus purus. Proin facilisis elit id ex sodales dignissim. Etiam volutpat quis eros id tristique. Maecenas nisi dolor, consectetur sed laoreet sed, suscipit non mi. In ornare interdum pulvinar. Aliquam lacus ligula, lacinia vitae semper id, aliquam sit amet quam.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col s12 z-depth-1 rounded",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("thead", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, "Title"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, "Author"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, "Time"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tbody", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, "Log #1"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, "Bas Smit"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, "09:00 PM")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, "Log #2"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, "Bas Smit"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, "09:00 PM")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, "Log #3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }, "Bas Smit"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, "09:00 PM"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col s12 z-depth-1 rounded",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 39
     },
     __self: this
-  }, "Failed logs"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Failed logs"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("table", {
+    className: "highlight",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 40
     },
     __self: this
-  }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula justo, tincidunt quis tortor sed, eleifend tempor lorem. Suspendisse tincidunt maximus viverra. Donec commodo pulvinar tortor ac finibus. Aliquam quam mi, egestas non urna eget, pretium cursus purus. Proin facilisis elit id ex sodales dignissim. Etiam volutpat quis eros id tristique. Maecenas nisi dolor, consectetur sed laoreet sed, suscipit non mi. In ornare interdum pulvinar. Aliquam lacus ligula, lacinia vitae semper id, aliquam sit amet quam."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("thead", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, "Title"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }, "Author"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, "Time"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tbody", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    },
+    __self: this
+  }, "Log #1"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }, "Bas Smit"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, "09:00 PM")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: this
+  }, "Log #2"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56
+    },
+    __self: this
+  }, "Bas Smit"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  }, "09:00 PM")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60
+    },
+    __self: this
+  }, "Log #3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61
+    },
+    __self: this
+  }, "Bas Smit"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62
+    },
+    __self: this
+  }, "09:00 PM"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col s12 z-depth-1 rounded",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68
+    },
+    __self: this
+  }, "Failed tests"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("table", {
+    className: "highlight",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("thead", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72
+    },
+    __self: this
+  }, "Title"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73
+    },
+    __self: this
+  }, "Author"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74
+    },
+    __self: this
+  }, "Time"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tbody", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 79
+    },
+    __self: this
+  }, "Log #1"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80
+    },
+    __self: this
+  }, "Bas Smit"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81
+    },
+    __self: this
+  }, "09:00 PM")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 83
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84
+    },
+    __self: this
+  }, "Log #2"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 85
+    },
+    __self: this
+  }, "Bas Smit"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86
+    },
+    __self: this
+  }, "09:00 PM")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 88
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89
+    },
+    __self: this
+  }, "Log #3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 90
+    },
+    __self: this
+  }, "Bas Smit"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 91
+    },
+    __self: this
+  }, "09:00 PM"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col s12 z-depth-1 rounded",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 97
+    },
+    __self: this
+  }, "Failed logs"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("table", {
+    className: "highlight",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 98
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("thead", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 100
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 101
+    },
+    __self: this
+  }, "Title"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 102
+    },
+    __self: this
+  }, "Author"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 103
+    },
+    __self: this
+  }, "Time"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tbody", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 106
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 107
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 108
+    },
+    __self: this
+  }, "Log #1"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 109
+    },
+    __self: this
+  }, "Bas Smit"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 110
+    },
+    __self: this
+  }, "09:00 PM")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 112
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 113
+    },
+    __self: this
+  }, "Log #2"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 114
+    },
+    __self: this
+  }, "Bas Smit"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 115
+    },
+    __self: this
+  }, "09:00 PM")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 117
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 118
+    },
+    __self: this
+  }, "Log #3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 119
+    },
+    __self: this
+  }, "Bas Smit"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 120
+    },
+    __self: this
+  }, "09:00 PM")))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row col s6",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 126
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col s12 z-depth-1 rounded",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 127
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 128
     },
     __self: this
-  }, "New log"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "New log"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+    className: "col s12",
+    action: "",
+    method: "post",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 129
     },
     __self: this
-  }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula justo, tincidunt quis tortor sed, eleifend tempor lorem. Suspendisse tincidunt maximus viverra. Donec commodo pulvinar tortor ac finibus. Aliquam quam mi, egestas non urna eget, pretium cursus purus. Proin facilisis elit id ex sodales dignissim. Etiam volutpat quis eros id tristique. Maecenas nisi dolor, consectetur sed laoreet sed, suscipit non mi. In ornare interdum pulvinar. Aliquam lacus ligula, lacinia vitae semper id, aliquam sit amet quam.")))));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    for: "log_name",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 130
+    },
+    __self: this
+  }, "Enter a title"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    placeholder: "title for log",
+    type: "text",
+    id: "log_name",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 131
+    },
+    __self: this
+  }))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
@@ -2057,7 +2552,7 @@ var Index = function Index() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/dorustenhaaf/Documents/CMD/minor webdev/meesterproef/Jiskefet/pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! /Users/marcelfleuren/Desktop/cern/Jiskefet/pages/index.js */"./pages/index.js");
 
 
 /***/ }),
