@@ -9,6 +9,7 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+<<<<<<< HEAD
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
@@ -16,195 +17,193 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "/Users/marcelfleuren/Desktop/cern/Jiskefet/components/nav.js";
-
+=======
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/dorustenhaaf/Documents/CMD/minor webdev/meesterproef/Jiskefet/components/nav.js";
+>>>>>>> e843a7fe39c1359d30f38ab1d2ee00d888d1ae92
 
 
 
 var Nav = function Nav() {
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-2380130759",
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("nav", {
-    className: "jsx-2380130759" + " " + "indigo lighten-1",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
+    className: "indigo lighten-1",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-2380130759" + " " + "nav-wrapper indigo lighten-1 container",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "nav-wrapper indigo lighten-1 container",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "/",
-    className: "jsx-2380130759" + " " + "brand-logo",
+    className: "brand-logo",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: this
-  }, "Jiskefet"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
+  }, "Jiskefet"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     id: "nav-mobile",
-    className: "jsx-2380130759" + " " + "right hide-on-med-and-down",
+    className: "right hide-on-med-and-down",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-    className: "jsx-2380130759",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "sass.html",
-    className: "jsx-2380130759",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
-    className: "jsx-2380130759" + " " + "material-icons",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "material-icons",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
-  }, "notifications"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-    className: "jsx-2380130759",
+  }, "notifications"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "#",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "dropdown-trigger",
     "data-target": "dropdown1",
-    className: "jsx-2380130759" + " " + "dropdown-trigger",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }, "Dropdown", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
-    className: "jsx-2380130759" + " " + "material-icons right",
+  }, "Dropdown", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "material-icons right",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }, "arrow_drop_down"))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
+  }, "arrow_drop_down"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     id: "nav-mobile",
-    className: "jsx-2380130759" + " " + "right hide-on-med-and-down",
+    className: "right hide-on-med-and-down",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-    className: "jsx-2380130759",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    className: "jsx-2380130759",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
-  }, "Dashboard"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-    className: "jsx-2380130759",
+  }, "Dashboard"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/logs",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    className: "jsx-2380130759",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
     },
     __self: this
-  }, "Log overview"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-    className: "jsx-2380130759",
+  }, "Log overview"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/runs",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    className: "jsx-2380130759",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
-  }, "Run overview"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-    className: "jsx-2380130759",
+  }, "Run overview"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/subsystems",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    className: "jsx-2380130759",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
     },
     __self: this
+<<<<<<< HEAD
   }, "Subsystems overview")))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "2380130759",
     __self: this
   }, "nav.jsx-2380130759{margin-bottom:2em;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYXJjZWxmbGV1cmVuL0Rlc2t0b3AvY2Vybi9KaXNrZWZldC9jb21wb25lbnRzL25hdi5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtQmEsQUFHcUIsa0JBQ2xCIiwiZmlsZSI6Ii9Vc2Vycy9tYXJjZWxmbGV1cmVuL0Rlc2t0b3AvY2Vybi9KaXNrZWZldC9jb21wb25lbnRzL25hdi5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluaydcblxuY29uc3QgTmF2ID0gKCkgPT4gKFxuPGRpdj5cblx0PG5hdiBjbGFzc05hbWU9XCJpbmRpZ28gbGlnaHRlbi0xXCI+XG5cdCAgICA8ZGl2IGNsYXNzTmFtZT1cIm5hdi13cmFwcGVyIGluZGlnbyBsaWdodGVuLTEgY29udGFpbmVyXCI+XG5cdCAgICAgIDxhIGhyZWY9XCIvXCIgY2xhc3NOYW1lPVwiYnJhbmQtbG9nb1wiPkppc2tlZmV0PC9hPlxuXHRcdCAgPHVsIGlkPVwibmF2LW1vYmlsZVwiIGNsYXNzTmFtZT1cInJpZ2h0IGhpZGUtb24tbWVkLWFuZC1kb3duXCI+XG5cdFx0ICBcdDxsaT48YSBocmVmPVwic2Fzcy5odG1sXCI+PGkgY2xhc3NOYW1lPVwibWF0ZXJpYWwtaWNvbnNcIj5ub3RpZmljYXRpb25zPC9pPjwvYT48L2xpPlxuXHRcdCAgXHQ8bGk+PExpbmsgaHJlZj1cIiNcIj48YSBjbGFzc05hbWU9XCJkcm9wZG93bi10cmlnZ2VyXCIgZGF0YS10YXJnZXQ9XCJkcm9wZG93bjFcIj5Ecm9wZG93bjxpIGNsYXNzTmFtZT1cIm1hdGVyaWFsLWljb25zIHJpZ2h0XCI+YXJyb3dfZHJvcF9kb3duPC9pPjwvYT48L0xpbms+PC9saT5cblx0ICAgICAgPC91bD5cblx0ICAgICAgPHVsIGlkPVwibmF2LW1vYmlsZVwiIGNsYXNzTmFtZT1cInJpZ2h0IGhpZGUtb24tbWVkLWFuZC1kb3duXCI+XG5cdCAgICAgICAgPGxpPjxMaW5rIGhyZWY9XCIvXCI+PGE+RGFzaGJvYXJkPC9hPjwvTGluaz48L2xpPlxuXHQgICAgICAgIDxsaT48TGluayBocmVmPVwiL2xvZ3NcIj48YT5Mb2cgb3ZlcnZpZXc8L2E+PC9MaW5rPjwvbGk+XG5cdCAgICAgICAgPGxpPjxMaW5rIGhyZWY9XCIvcnVuc1wiPjxhPlJ1biBvdmVydmlldzwvYT48L0xpbms+PC9saT5cblx0XHRcdDxsaT48TGluayBocmVmPVwiL3N1YnN5c3RlbXNcIj48YT5TdWJzeXN0ZW1zIG92ZXJ2aWV3PC9hPjwvTGluaz48L2xpPlxuXHQgICAgICA8L3VsPlxuXHQgICAgPC9kaXY+XG4gXHQ8L25hdj5cblx0PHN0eWxlIGpzeD57YFxuXHRcdG5hdntcblx0XHRcdG1hcmdpbi1ib3R0b206MmVtO1xuXHRcdH1cblx0YH08L3N0eWxlPlxuPC9kaXY+XG4pO1xuXG5leHBvcnQgZGVmYXVsdCBOYXY7XG4iXX0= */\n/*@ sourceURL=/Users/marcelfleuren/Desktop/cern/Jiskefet/components/nav.js */"));
+=======
+  }, "Subsystems overview")))))));
+>>>>>>> e843a7fe39c1359d30f38ab1d2ee00d888d1ae92
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Nav);
@@ -258,7 +257,7 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-1212136418",
+        className: "jsx-4139449602",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 7
@@ -271,7 +270,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("title", {
-        className: "jsx-1212136418",
+        className: "jsx-4139449602",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 9
@@ -280,7 +279,7 @@ function (_React$Component) {
       }, "Jiskefet"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("link", {
         rel: "stylesheet",
         href: "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css",
-        className: "jsx-1212136418",
+        className: "jsx-4139449602",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 10
@@ -288,7 +287,7 @@ function (_React$Component) {
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("script", {
         src: "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js",
-        className: "jsx-1212136418",
+        className: "jsx-4139449602",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 11
@@ -297,7 +296,7 @@ function (_React$Component) {
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("link", {
         href: "https://fonts.googleapis.com/icon?family=Material+Icons",
         rel: "stylesheet",
-        className: "jsx-1212136418",
+        className: "jsx-4139449602",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 12
@@ -306,7 +305,7 @@ function (_React$Component) {
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("meta", {
         name: "viewport",
         content: "initial-scale=1.0, width=device-width",
-        className: "jsx-1212136418",
+        className: "jsx-4139449602",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 13
@@ -319,9 +318,13 @@ function (_React$Component) {
         },
         __self: this
       }), this.props.children, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a, {
-        id: "1212136418",
+        id: "4139449602",
         __self: this
+<<<<<<< HEAD
       }, ".rounded{border-radius:5px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYXJjZWxmbGV1cmVuL0Rlc2t0b3AvY2Vybi9KaXNrZWZldC9sYXlvdXRzL21haW4uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBZ0JzQixBQUd3QixrQkFDbkIiLCJmaWxlIjoiL1VzZXJzL21hcmNlbGZsZXVyZW4vRGVza3RvcC9jZXJuL0ppc2tlZmV0L2xheW91dHMvbWFpbi5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkIGZyb20gJ25leHQvaGVhZCdcbmltcG9ydCBOYXYgZnJvbSAnLi4vY29tcG9uZW50cy9uYXYnXG5cblxuY2xhc3MgTWFpbiBleHRlbmRzIFJlYWN0LkNvbXBvbmVudCB7XG4gIHJlbmRlcigpIHtcbiAgICByZXR1cm4gIDxkaXY+XG5cdFx0IDxIZWFkPlxuXHRcdFx0IDx0aXRsZT5KaXNrZWZldDwvdGl0bGU+XG5cdFx0XHQgPGxpbmsgcmVsPVwic3R5bGVzaGVldFwiIGhyZWY9XCJodHRwczovL2NkbmpzLmNsb3VkZmxhcmUuY29tL2FqYXgvbGlicy9tYXRlcmlhbGl6ZS8xLjAuMC9jc3MvbWF0ZXJpYWxpemUubWluLmNzc1wiLz5cblx0XHRcdCA8c2NyaXB0IHNyYz1cImh0dHBzOi8vY2RuanMuY2xvdWRmbGFyZS5jb20vYWpheC9saWJzL21hdGVyaWFsaXplLzEuMC4wL2pzL21hdGVyaWFsaXplLm1pbi5qc1wiPjwvc2NyaXB0PlxuXHRcdFx0IDxsaW5rIGhyZWY9XCJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2ljb24/ZmFtaWx5PU1hdGVyaWFsK0ljb25zXCIgcmVsPVwic3R5bGVzaGVldFwiIC8+XG5cdFx0XHQgPG1ldGEgbmFtZT1cInZpZXdwb3J0XCIgY29udGVudD1cImluaXRpYWwtc2NhbGU9MS4wLCB3aWR0aD1kZXZpY2Utd2lkdGhcIiAvPlxuXHRcdCA8L0hlYWQ+XG5cdFx0IDxOYXY+PC9OYXY+XG5cdFx0IHt0aGlzLnByb3BzLmNoaWxkcmVufVxuXHRcdCA8c3R5bGUgZ2xvYmFsIGpzeD57YFxuXHRcdFx0IC5yb3VuZGVke1xuXHRcdFx0XHQgYm9yZGVyLXJhZGl1czogNXB4O1xuXHRcdFx0IH1cblx0IFx0YH1cblx0XHQgPC9zdHlsZT5cblx0IDwvZGl2PlxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IE1haW5cbiJdfQ== */\n/*@ sourceURL=/Users/marcelfleuren/Desktop/cern/Jiskefet/layouts/main.js */"));
+=======
+      }, ".container{max-width:95%;}@media only screen and (min-width:993px){.container{width:100%;}}@media only screen and (min-width:601px){.container{width:100%;}}.rounded{border-radius:5px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9kb3J1c3RlbmhhYWYvRG9jdW1lbnRzL0NNRC9taW5vciB3ZWJkZXYvbWVlc3RlcnByb2VmL0ppc2tlZmV0L2xheW91dHMvbWFpbi5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFnQnNCLEFBR21CLEFBSUYsQUFLQSxBQUlNLFdBUmxCLEFBS0EsR0FURCxJQWFBIiwiZmlsZSI6Ii9Vc2Vycy9kb3J1c3RlbmhhYWYvRG9jdW1lbnRzL0NNRC9taW5vciB3ZWJkZXYvbWVlc3RlcnByb2VmL0ppc2tlZmV0L2xheW91dHMvbWFpbi5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkIGZyb20gJ25leHQvaGVhZCdcbmltcG9ydCBOYXYgZnJvbSAnLi4vY29tcG9uZW50cy9uYXYnXG5cblxuY2xhc3MgTWFpbiBleHRlbmRzIFJlYWN0LkNvbXBvbmVudCB7XG4gIHJlbmRlcigpIHtcbiAgICByZXR1cm4gIDxkaXY+XG5cdFx0IDxIZWFkPlxuXHRcdFx0IDx0aXRsZT5KaXNrZWZldDwvdGl0bGU+XG5cdFx0XHQgPGxpbmsgcmVsPVwic3R5bGVzaGVldFwiIGhyZWY9XCJodHRwczovL2NkbmpzLmNsb3VkZmxhcmUuY29tL2FqYXgvbGlicy9tYXRlcmlhbGl6ZS8xLjAuMC9jc3MvbWF0ZXJpYWxpemUubWluLmNzc1wiLz5cblx0XHRcdCA8c2NyaXB0IHNyYz1cImh0dHBzOi8vY2RuanMuY2xvdWRmbGFyZS5jb20vYWpheC9saWJzL21hdGVyaWFsaXplLzEuMC4wL2pzL21hdGVyaWFsaXplLm1pbi5qc1wiPjwvc2NyaXB0PlxuXHRcdFx0IDxsaW5rIGhyZWY9XCJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2ljb24/ZmFtaWx5PU1hdGVyaWFsK0ljb25zXCIgcmVsPVwic3R5bGVzaGVldFwiIC8+XG5cdFx0XHQgPG1ldGEgbmFtZT1cInZpZXdwb3J0XCIgY29udGVudD1cImluaXRpYWwtc2NhbGU9MS4wLCB3aWR0aD1kZXZpY2Utd2lkdGhcIiAvPlxuXHRcdCA8L0hlYWQ+XG5cdFx0IDxOYXY+PC9OYXY+XG5cdFx0IHt0aGlzLnByb3BzLmNoaWxkcmVufVxuXHRcdCA8c3R5bGUgZ2xvYmFsIGpzeD57YFxuXHRcdFx0LmNvbnRhaW5lcntcblx0XHRcdFx0bWF4LXdpZHRoOiA5NSU7XG5cdFx0XHR9XG5cdFx0XHRAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDk5M3B4KXtcblx0XHRcdFx0LmNvbnRhaW5lciB7XG5cdFx0XHRcdFx0d2lkdGg6IDEwMCU7XG5cdFx0XHRcdH1cblx0XHRcdH1cblx0XHRcdEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogNjAxcHgpe1xuXHRcdFx0XHQuY29udGFpbmVyIHtcblx0XHRcdFx0XHR3aWR0aDogMTAwJTtcblx0XHRcdFx0fVxuXHRcdFx0fVxuXHRcdFx0LnJvdW5kZWR7XG5cdFx0XHRcdGJvcmRlci1yYWRpdXM6IDVweDtcblx0XHRcdH1cblx0IFx0YH1cblx0XHQgPC9zdHlsZT5cblx0IDwvZGl2PlxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IE1haW5cbiJdfQ== */\n/*@ sourceURL=/Users/dorustenhaaf/Documents/CMD/minor webdev/meesterproef/Jiskefet/layouts/main.js */"));
+>>>>>>> e843a7fe39c1359d30f38ab1d2ee00d888d1ae92
     }
   }]);
 
@@ -12326,10 +12329,17 @@ var Index = function Index() {
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ 0:
 /*!****************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fmarcelfleuren%2FDesktop%2Fcern%2FJiskefet%2Fpages%2Findex.js ***!
   \****************************************************************************************************************************************/
+=======
+/***/ 1:
+/*!************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fdorustenhaaf%2FDocuments%2FCMD%2Fminor%20webdev%2Fmeesterproef%2FJiskefet%2Fpages%2Findex.js ***!
+  \************************************************************************************************************************************************************************/
+>>>>>>> e843a7fe39c1359d30f38ab1d2ee00d888d1ae92
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12349,5 +12359,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
