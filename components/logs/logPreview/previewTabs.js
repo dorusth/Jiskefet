@@ -1,18 +1,10 @@
 const Fragment = React.Fragment
 
 class PreviewTab extends React.Component {
-    constructor(props){
-		super(props);
-        this.state = {
-            name: props.tab,
-            count: props.count,
-        }
-    }
-
     render(){
         return(
             <Fragment>
-                <div id="test1" className={this.props.active +" col s12 logTab"}>{this.state.name}</div>
+                <div id="test1" className={this.props.active +" col s12 logTab"}>{this.props.tab}</div>
                 <style jsx>{`
                 .active{
                     display: block;
