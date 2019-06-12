@@ -10,7 +10,6 @@ class PreviewTab extends React.Component {
     }
 
     render(){
-        this.checkActive()
         return(
             <Fragment>
                 <div id="test1" className={this.props.active +" col s12 logTab"}>{this.state.name}</div>

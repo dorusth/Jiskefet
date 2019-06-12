@@ -215,11 +215,10 @@ function (_React$Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(PreviewTab, [{
     key: "render",
     value: function render() {
-      this.checkActive();
       return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(Fragment, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15
+          lineNumber: 14
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -227,13 +226,13 @@ function (_React$Component) {
         className: "jsx-3588861598" + " " + (this.props.active + " col s12 logTab" || false),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 15
         },
         __self: this
       }, this.state.name), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a, {
         id: "3588861598",
         __self: this
-      }, ".active.jsx-3588861598{display:block;}.inactive.jsx-3588861598{display:none;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9kb3J1c3RlbmhhYWYvRG9jdW1lbnRzL0NNRC9taW5vciB3ZWJkZXYvbWVlc3RlcnByb2VmL0ppc2tlZmV0L2NvbXBvbmVudHMvbG9ncy9wcmV2aWV3VGFicy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFnQjRCLEFBR21DLEFBR0QsYUFDakIsQ0FIQSIsImZpbGUiOiIvVXNlcnMvZG9ydXN0ZW5oYWFmL0RvY3VtZW50cy9DTUQvbWlub3Igd2ViZGV2L21lZXN0ZXJwcm9lZi9KaXNrZWZldC9jb21wb25lbnRzL2xvZ3MvcHJldmlld1RhYnMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBGcmFnbWVudCA9IFJlYWN0LkZyYWdtZW50XG5cbmNsYXNzIFByZXZpZXdUYWIgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnQge1xuICAgIGNvbnN0cnVjdG9yKHByb3BzKXtcblx0XHRzdXBlcihwcm9wcyk7XG4gICAgICAgIHRoaXMuc3RhdGUgPSB7XG4gICAgICAgICAgICBuYW1lOiBwcm9wcy50YWIsXG4gICAgICAgICAgICBjb3VudDogcHJvcHMuY291bnQsXG4gICAgICAgIH1cbiAgICB9XG5cbiAgICByZW5kZXIoKXtcbiAgICAgICAgdGhpcy5jaGVja0FjdGl2ZSgpXG4gICAgICAgIHJldHVybihcbiAgICAgICAgICAgIDxGcmFnbWVudD5cbiAgICAgICAgICAgICAgICA8ZGl2IGlkPVwidGVzdDFcIiBjbGFzc05hbWU9e3RoaXMucHJvcHMuYWN0aXZlICtcIiBjb2wgczEyIGxvZ1RhYlwifT57dGhpcy5zdGF0ZS5uYW1lfTwvZGl2PlxuICAgICAgICAgICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICAgICAgICAuYWN0aXZle1xuICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OiBibG9jaztcbiAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgLmluYWN0aXZle1xuICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OiBub25lO1xuICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICBgfTwvc3R5bGU+XG4gICAgICAgICAgICA8L0ZyYWdtZW50PlxuICAgICAgICApXG4gICAgfVxufVxuXG5leHBvcnQgZGVmYXVsdCBQcmV2aWV3VGFiIl19 */\n/*@ sourceURL=/Users/dorustenhaaf/Documents/CMD/minor webdev/meesterproef/Jiskefet/components/logs/previewTabs.js */"));
+      }, ".active.jsx-3588861598{display:block;}.inactive.jsx-3588861598{display:none;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9kb3J1c3RlbmhhYWYvRG9jdW1lbnRzL0NNRC9taW5vciB3ZWJkZXYvbWVlc3RlcnByb2VmL0ppc2tlZmV0L2NvbXBvbmVudHMvbG9ncy9wcmV2aWV3VGFicy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFlNEIsQUFHbUMsQUFHRCxhQUNqQixDQUhBIiwiZmlsZSI6Ii9Vc2Vycy9kb3J1c3RlbmhhYWYvRG9jdW1lbnRzL0NNRC9taW5vciB3ZWJkZXYvbWVlc3RlcnByb2VmL0ppc2tlZmV0L2NvbXBvbmVudHMvbG9ncy9wcmV2aWV3VGFicy5qcyIsInNvdXJjZXNDb250ZW50IjpbImNvbnN0IEZyYWdtZW50ID0gUmVhY3QuRnJhZ21lbnRcblxuY2xhc3MgUHJldmlld1RhYiBleHRlbmRzIFJlYWN0LkNvbXBvbmVudCB7XG4gICAgY29uc3RydWN0b3IocHJvcHMpe1xuXHRcdHN1cGVyKHByb3BzKTtcbiAgICAgICAgdGhpcy5zdGF0ZSA9IHtcbiAgICAgICAgICAgIG5hbWU6IHByb3BzLnRhYixcbiAgICAgICAgICAgIGNvdW50OiBwcm9wcy5jb3VudCxcbiAgICAgICAgfVxuICAgIH1cblxuICAgIHJlbmRlcigpe1xuICAgICAgICByZXR1cm4oXG4gICAgICAgICAgICA8RnJhZ21lbnQ+XG4gICAgICAgICAgICAgICAgPGRpdiBpZD1cInRlc3QxXCIgY2xhc3NOYW1lPXt0aGlzLnByb3BzLmFjdGl2ZSArXCIgY29sIHMxMiBsb2dUYWJcIn0+e3RoaXMuc3RhdGUubmFtZX08L2Rpdj5cbiAgICAgICAgICAgICAgICA8c3R5bGUganN4PntgXG4gICAgICAgICAgICAgICAgLmFjdGl2ZXtcbiAgICAgICAgICAgICAgICAgICAgZGlzcGxheTogYmxvY2s7XG4gICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgIC5pbmFjdGl2ZXtcbiAgICAgICAgICAgICAgICAgICAgZGlzcGxheTogbm9uZTtcbiAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgYH08L3N0eWxlPlxuICAgICAgICAgICAgPC9GcmFnbWVudD5cbiAgICAgICAgKVxuICAgIH1cbn1cblxuZXhwb3J0IGRlZmF1bHQgUHJldmlld1RhYiJdfQ== */\n/*@ sourceURL=/Users/dorustenhaaf/Documents/CMD/minor webdev/meesterproef/Jiskefet/components/logs/previewTabs.js */"));
     }
   }]);
 
