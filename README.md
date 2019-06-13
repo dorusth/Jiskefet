@@ -2,8 +2,6 @@
 
 ![dashboard](screens/dashboard.png)
 
-
-
 [Json server for prototyping](https://github.com/typicode/json-server#getting-started)
 to start fake api
 
