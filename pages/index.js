@@ -1,8 +1,9 @@
 import Link from 'next/link'
 import Main from '../layouts/main'
 import BarChart from '../components/barChart'
+import fetch from 'isomorphic-unfetch'
 
-const Index = () => (
+const Index = props => (
 	<Main>
 		<div className="container row">
 			<div className="row col s6">
@@ -112,4 +113,20 @@ const Index = () => (
 	</Main>
 );
 
+
+
+Index.getInitialProps = async function() {
+	const res = await fetch('http://localhost:3000/item')
+	const data = await res.json()
+
+
+	await Object.values(data).forEach(value => {
+		console.log(value.runNumber)
+		//use value here
+	});
+
+	return {
+		data
+	}
+}
 export default Index;
