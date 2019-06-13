@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Main from '../layouts/main'
-// links work with everything
+import BarChart from '../components/barChart'
 
 const Index = () => (
 	<Main>
@@ -94,33 +94,9 @@ const Index = () => (
 					</table>
 				</div>
 				<div className="col s12 z-depth-1 rounded">
-					<h3 className="center">Failed logs</h3>
-					<table className="highlight">
-						<thead>
-							<tr>
-								<th>Title</th>
-								<th>Author</th>
-								<th>Time</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Log #1</td>
-								<td>Bas Smit</td>
-								<td>09:00 PM</td>
-							</tr>
-							<tr>
-								<td>Log #2</td>
-								<td>Bas Smit</td>
-								<td>09:00 PM</td>
-							</tr>
-							<tr>
-								<td>Log #3</td>
-								<td>Bas Smit</td>
-								<td>09:00 PM</td>
-							</tr>
-						</tbody>
-					</table>
+					<h3 id="dataVis" className="center">Datavis</h3>
+					<p>Hier komt datavis</p>
+					<BarChart data={[5, 10, 1, 3]} size={[250, 250]} />
 				</div>
 			</div>
 			<div className="row col s6">
