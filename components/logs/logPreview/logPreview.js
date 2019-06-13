@@ -6,7 +6,7 @@ class LogPreview extends React.Component {
         super(props)
 
         this.state = {
-			CurrentTab:3,
+			CurrentTab:0,
 			tabs: [
 				{
 					name:"content",
@@ -30,18 +30,23 @@ class LogPreview extends React.Component {
     
     updateCurrent = (e) => {
         this.setState({CurrentTab: +e.currentTarget.id})
+        e.currentTarget.className += " active"
         console.log(this.state.CurrentTab)
     }
 
     checkActive(itemCount){
         if(itemCount === this.state.CurrentTab){
-                return "Active "
+                return "active "
         }else{
                 return "inactive "
         }
     }
 
-
+    LogTab = (props) =>{
+        return(
+            <li className="tab col s3"><a href="#" id={props.count} className={props.active} onClick={this.updateCurrent}>{props.name}</a></li>
+        )
+    }
 
     render(){
         return(
@@ -68,10 +73,11 @@ class LogPreview extends React.Component {
                 <div className="row">
                     <div className="col s12">
                         <ul className="tabs">
-                            <li className="tab col s3"><a className="active" href="#test2" id="0" onClick={this.updateCurrent}>Content</a></li>
-                            <li className="tab col s3"><a href="#test1" id="1" onClick={this.updateCurrent}>Runs</a></li>
-                            <li className="tab col s3"><a href="#test1" id="2" onClick={this.updateCurrent}>Files</a></li>
-                            <li className="tab col s3"><a href="#test1" id="3" onClick={this.updateCurrent}>Other</a></li>
+                            {this.state.tabs.map((tab, key)=>{
+                                return(
+                                    <this.LogTab count={tab.count} active={this.checkActive(tab.count)} name={tab.name} key={key}/>
+                                )
+                            })}
                         </ul>
                     </div>
                     {this.state.tabs.map((tab, key)=>{
