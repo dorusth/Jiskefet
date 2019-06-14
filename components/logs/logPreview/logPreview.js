@@ -27,6 +27,18 @@ class LogPreview extends React.Component {
 			]
         }
     }
+
+    static async getInitialProps() {
+		const res = await fetch('http://localhost:3000/logs',{
+			headers:{
+				"Authorization": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibG9jYWxUZXN0VG9rZW4iLCJpYXQiOjE1NTk1NjQ3ODAsImV4cCI6MTU5MTEwMDc4MH0.8j1NowO7zSRkRraUUiqaeVYsS9tAq7LVZOtLfQqbxc0"
+			}
+		})
+		const data = await res.json()
+		return{
+				data
+		}
+	}
     
     updateCurrent = (e) => {
         this.setState({CurrentTab: +e.currentTarget.id})
@@ -49,9 +61,10 @@ class LogPreview extends React.Component {
     }
 
     render(){
+        console.log(this.props)
         return(
             <div className=" container col s4 blue-grey lighten-5">
-                <h2>Run preview</h2>
+                <h2>Log preview : {this.props.selectedLog}</h2>
                 <p>
                     <label>
                         <input type="checkbox" />
@@ -72,7 +85,7 @@ class LogPreview extends React.Component {
                 </div>
                 <div className="row">
                     <div className="col s12">
-                        <ul className="tabs">
+                        <ul className="tabs z-depth-1">
                             {this.state.tabs.map((tab, key)=>{
                                 return(
                                     <this.LogTab count={tab.count} active={this.checkActive(tab.count)} name={tab.name} key={key}/>

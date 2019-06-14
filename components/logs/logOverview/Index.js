@@ -1,3 +1,6 @@
+import fetch from 'isomorphic-unfetch'
+import data from '../fakeLogs.js'
+
 class LogOverview extends React.Component{
     constructor(props){
         super(props)
@@ -53,13 +56,12 @@ class LogOverview extends React.Component{
         )
     }
 
-    render(){
-        console.log(this.props.logs.data)
+    render(){ 
         return(
-            <div className="col s8 green container">
+            <div className="col s8 container">
                 <div className="row">
                     <div className="col s12">
-                        <ul className="tabs">
+                        <ul className="tabs z-depth-1">
                             {this.state.tabs.map((tab, key)=>{
                                 return(
                                     <this.Tab count={tab.count} active={this.checkActive(tab.count)} name={tab.name} key={key}/>
@@ -67,14 +69,53 @@ class LogOverview extends React.Component{
                             })}
                         </ul>
                     </div>
-                    <div>
-                        {this.props.logs.data.item.map((log,key)=>{
+                    <div className="container">
+                        {this.props.data.data.items.map((log,key)=>{
                             return(
-                                <p key={key}>{log.logId}</p>
+                                <div className="col s12 blue-grey lighten-5 logTile valign-wrapper" key={key} id={log.logId} onClick={this.props.handleSelectedLog}>
+                                    <p className="id black t-white" key={key}>{log.logId}</p>
+                                    <p className="col s7 offset-s1">{log.title}</p>
+                                    <div className="logger col s2 center">
+                                        <p>{log.user.userId}</p>
+                                        <p className="grey darken-2 t-white">{log.origin}</p>
+                                    </div>
+                                    <div className="logger col s2 center">
+                                        <p>5 min</p>
+                                        <p className="grey darken-2 t-white">run</p>
+                                    </div>
+                                </div>
                             )
                         })}
                     </div>
                 </div>
+                <style jsx>{`
+                    .logTile{
+                        margin: 1.2em 0 .8em;
+                        position: relative;
+                    }
+                    .logTile p{
+                        margin-top:0;
+                        margin-bottom:0;
+                    }
+                    .id{
+                        position: absolute;
+                        padding: .2em 1em;
+                        top:-.5em;
+                        left:0;
+                    }
+                    .logger p:first-child{
+                        margin-block-start: 0em;
+                        margin-block-end: .5em;
+                    }
+                    .logger p:last-child{
+                        margin-block-start: .5em;
+                        margin-block-end: 0em;
+                    }
+                    .t-white{
+                        padding: .2em 1em;
+                        color: white;
+                    }
+                `}</style>
             </div>
         )
     }
