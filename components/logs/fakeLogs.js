@@ -3,7 +3,7 @@ let data = {
     "data": {
         "count": 1000,
         "pageSize": "4",
-        "item": [
+        "items": [
             {
                 "logId": 152,
                 "subtype": "comment",
@@ -14,7 +14,13 @@ let data = {
                 "subsystemFkSubsystemId": null,
                 "announcementValidUntil": null,
                 "commentFkParentLogId": null,
-                "commentFkRootLogId": null
+                "commentFkRootLogId": null,
+                "runs": "Connected runs",
+                "user": {
+                        "userId": "213",
+                        "externalUserId": "-",
+                        "samsId": "-"
+                }
             },
             {
                 "logId": 163,
@@ -26,7 +32,13 @@ let data = {
                 "subsystemFkSubsystemId": null,
                 "announcementValidUntil": null,
                 "commentFkParentLogId": null,
-                "commentFkRootLogId": null
+                "commentFkRootLogId": null,
+                "runs": "Connected runs",
+                "user": {
+                        "userId": "624353",
+                        "externalUserId": "-",
+                        "samsId": "-"
+                }
             },
             {
                 "logId": 190,
@@ -38,7 +50,13 @@ let data = {
                 "subsystemFkSubsystemId": null,
                 "announcementValidUntil": null,
                 "commentFkParentLogId": null,
-                "commentFkRootLogId": null
+                "commentFkRootLogId": null,
+                "runs": "Connected runs",
+                "user": {
+                        "userId": "73456",
+                        "externalUserId": "-",
+                        "samsId": "-"
+                }
             },
             {
                 "logId": 197,
@@ -50,7 +68,13 @@ let data = {
                 "subsystemFkSubsystemId": null,
                 "announcementValidUntil": null,
                 "commentFkParentLogId": null,
-                "commentFkRootLogId": null
+                "commentFkRootLogId": null,
+                "runs": "Connected runs",
+                "user": {
+                        "userId": "6562367",
+                        "externalUserId": "-",
+                        "samsId": "-"
+                }
             }
         ]
     }

@@ -8,29 +8,72 @@ import data from '../components/logs/fakeLogs'
 class Logs extends React.Component {
 	constructor(props){
 		super(props)
-		}
-		
-		static async getInitialProps() {
-			
-			// const res = await fetch('http://localhost:3000/logs',{
-			// 	headers:{
-			// 		"Authorization": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibG9jYWxUZXN0VG9rZW4iLCJpYXQiOjE1NTk1NjQ3ODAsImV4cCI6MTU5MTEwMDc4MH0.8j1NowO7zSRkRraUUiqaeVYsS9tAq7LVZOtLfQqbxc0"
-			// 	}
-			// })
-			//const data = await res.json()
 
-			return{
-				data
-			}
+		this.state = {
+			selectedLog: 1,
+			previewLog: false,
+			currentPreview: {
+					"logId": "-",
+					"subtype": "-",
+					"origin": "-",
+					"creationTime": "-",
+					"title": "Log preview",
+					"body": "Log body",
+					"subsystemFkSubsystemId": null,
+					"announcementValidUntil": null,
+					"commentFkParentLogId": 1,
+					"commentFkRootLogId": 1,
+					"runs": "Connected runs",
+					"user": {
+							"userId": "-",
+							"externalUserId": "-",
+							"samsId": "-"
+					}
+				}
 		}
+
+		this.handleSelectedLog = this.handleSelectedLog.bind(this)
+	}
+
+	static async getInitialProps() {
+		const res = await fetch('http://localhost:3000/logs',{
+			headers:{
+				"Authorization": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibG9jYWxUZXN0VG9rZW4iLCJpYXQiOjE1NTk1NjQ3ODAsImV4cCI6MTU5MTEwMDc4MH0.8j1NowO7zSRkRraUUiqaeVYsS9tAq7LVZOtLfQqbxc0"
+			}
+		})
+		const data = await res.json()
+		return{
+				data
+		}
+	}
+
+	async setCurrentPreview(){
+		const res = await fetch('http://localhost:3000/logs/'+this.state.selectedLog,{
+			headers:{
+				"Authorization": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibG9jYWxUZXN0VG9rZW4iLCJpYXQiOjE1NTk1NjQ3ODAsImV4cCI6MTU5MTEwMDc4MH0.8j1NowO7zSRkRraUUiqaeVYsS9tAq7LVZOtLfQqbxc0"
+			}
+		})
+		const currentPreview = await res.json()
+		this.setState({
+			currentPreview: currentPreview.data.item
+		})
+	}
+
+	handleSelectedLog(e){
+		this.setState({
+			selectedLog: +e.currentTarget.id
+		}, () => {
+			this.setCurrentPreview()
+		})
+	}
 
 	render(){
 		return(
 			<Main>
 				<LogBar />
 				<div className="row">
-						<LogPreview />
-						<LogOverview logs={this.props.data}/>
+						<LogOverview data={this.props.data} handleSelectedLog={this.handleSelectedLog} />
+						<LogPreview selectedLog={this.state.selectedLog} data={this.state.currentPreview} />
 				</div>
 				<style jsx>{`
 					.active{

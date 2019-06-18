@@ -24,7 +24,7 @@ class LogPreview extends React.Component {
 					name:"other",
 					count: 3
 				}
-			]
+            ]
         }
     }
     
@@ -49,9 +49,10 @@ class LogPreview extends React.Component {
     }
 
     render(){
+        
         return(
             <div className=" container col s4 blue-grey lighten-5">
-                <h2>Run preview</h2>
+                <h2>{this.props.data.title}</h2>
                 <p>
                     <label>
                         <input type="checkbox" />
@@ -64,15 +65,16 @@ class LogPreview extends React.Component {
                 </div>
                 <div>
                     <ul className="ulBullet">
-                        <li>Alvin: <b>value</b></li>
-                        <li>Alvin: <b>value</b></li>
-                        <li>Alvin: <b>value</b></li>
-                        <li>Alvin: <b>value</b></li>
+                        <li>Log ID: <b>{this.props.data.logId}</b></li>
+                        <li>Subtype: <b>{this.props.data.subtype}</b></li>
+                        <li>Origin: <b>{this.props.data.origin}</b></li>
+                        <li>Creation time: <b>{this.props.data.creationTime}</b></li>
+                        <li>Author: <b>{this.props.data.user.userId}</b></li>
                     </ul>
                 </div>
                 <div className="row">
                     <div className="col s12">
-                        <ul className="tabs">
+                        <ul className="tabs z-depth-1">
                             {this.state.tabs.map((tab, key)=>{
                                 return(
                                     <this.LogTab count={tab.count} active={this.checkActive(tab.count)} name={tab.name} key={key}/>
@@ -80,11 +82,13 @@ class LogPreview extends React.Component {
                             })}
                         </ul>
                     </div>
+                    <div className="col s12">
                     {this.state.tabs.map((tab, key)=>{
                         return(
-                            <PreviewTabs key={key} tab={tab.name} active={this.checkActive(tab.count)} count={tab.count} />
+                            <PreviewTabs key={key} content={this.props.data} tab={tab.name} active={this.checkActive(tab.count)} count={tab.count} />
                         )
                     })}
+                    </div>
                 </div>
             </div>
         )
