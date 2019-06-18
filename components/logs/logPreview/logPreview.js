@@ -24,21 +24,9 @@ class LogPreview extends React.Component {
 					name:"other",
 					count: 3
 				}
-			]
+            ]
         }
     }
-
-    static async getInitialProps() {
-		const res = await fetch('http://localhost:3000/logs',{
-			headers:{
-				"Authorization": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibG9jYWxUZXN0VG9rZW4iLCJpYXQiOjE1NTk1NjQ3ODAsImV4cCI6MTU5MTEwMDc4MH0.8j1NowO7zSRkRraUUiqaeVYsS9tAq7LVZOtLfQqbxc0"
-			}
-		})
-		const data = await res.json()
-		return{
-				data
-		}
-	}
     
     updateCurrent = (e) => {
         this.setState({CurrentTab: +e.currentTarget.id})
@@ -61,10 +49,10 @@ class LogPreview extends React.Component {
     }
 
     render(){
-        console.log(this.props)
+        
         return(
             <div className=" container col s4 blue-grey lighten-5">
-                <h2>Log preview : {this.props.selectedLog}</h2>
+                <h2>{this.props.data.title}</h2>
                 <p>
                     <label>
                         <input type="checkbox" />
@@ -77,10 +65,11 @@ class LogPreview extends React.Component {
                 </div>
                 <div>
                     <ul className="ulBullet">
-                        <li>Alvin: <b>value</b></li>
-                        <li>Alvin: <b>value</b></li>
-                        <li>Alvin: <b>value</b></li>
-                        <li>Alvin: <b>value</b></li>
+                        <li>Log ID: <b>{this.props.data.logId}</b></li>
+                        <li>Subtype: <b>{this.props.data.subtype}</b></li>
+                        <li>Origin: <b>{this.props.data.origin}</b></li>
+                        <li>Creation time: <b>{this.props.data.creationTime}</b></li>
+                        <li>Author: <b>{this.props.data.user.userId}</b></li>
                     </ul>
                 </div>
                 <div className="row">
@@ -93,11 +82,13 @@ class LogPreview extends React.Component {
                             })}
                         </ul>
                     </div>
+                    <div className="col s12">
                     {this.state.tabs.map((tab, key)=>{
                         return(
-                            <PreviewTabs key={key} tab={tab.name} active={this.checkActive(tab.count)} count={tab.count} />
+                            <PreviewTabs key={key} content={this.props.data} tab={tab.name} active={this.checkActive(tab.count)} count={tab.count} />
                         )
                     })}
+                    </div>
                 </div>
             </div>
         )

@@ -81,7 +81,7 @@ class LogOverview extends React.Component{
                                     </div>
                                     <div className="logger col s2 center">
                                         <p>5 min</p>
-                                        <p className="grey darken-2 t-white">run</p>
+                                        <p className="grey darken-2 t-white">{log.subtype}</p>
                                     </div>
                                 </div>
                             )

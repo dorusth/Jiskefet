@@ -8,8 +8,7 @@
   },
   "author": "Marcel Fleuren",
   "license": "ISC",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "json-server": "^0.15.0"
   }

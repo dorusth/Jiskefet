@@ -2,12 +2,12 @@
 module.exports = () => {
     const data = {
         data: {
-            item: []
+            runs: []
         }
     }
     // Create 500 items
-    for (let i = 0; i < 500; i++) {
-        data.data.item.push({
+    for (let i = 0; i < 25; i++) {
+        data.data.runs.push({
             runNumber: i,
             O2StartTime: "2018-11-30T20:25:42.000Z",
             TrgStartTime: "2018-10-21T07:47:59.000Z",
