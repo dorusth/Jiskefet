@@ -1,5 +1,7 @@
-// index.js
-module.exports = () => {
+// this file creates a data object with 500 run entries and writes it to a db.json
+// data.js
+let fs = require("fs");
+let createData = () => {
     const data = {
         data: {
             runs: []
@@ -25,5 +27,13 @@ module.exports = () => {
             bytesTimeframeBuilder: Math.floor((Math.random() * 100) + 1)
         })
     }
-    return data
+    // return data
+    fs.writeFile("./db.json", JSON.stringify(data), (err) => {
+        if (err) {
+            console.error(err);
+            return;
+        };
+        console.log("File has been created");
+    });
 }
+createData()
