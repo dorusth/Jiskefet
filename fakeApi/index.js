@@ -16,7 +16,7 @@ module.exports = () => {
             activityId: "XZTDsgV4SiVPHFfZ",
             runType: "PHYSICS",
             runQuality: Math.floor((Math.random() * 100) + 1),
-            nDetectors: Math.floor((Math.random() * 10 ) + 1 ),
+            nDetectors: Math.floor((Math.random() * 10) + 1),
             nFlps: Math.floor((Math.random() * 100) + 1),
             nEpns: Math.floor((Math.random() * 100) + 1),
             nTimeframes: null,
