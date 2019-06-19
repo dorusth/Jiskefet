@@ -131,7 +131,7 @@ const Index = props => (
 Index.getInitialProps = async function() {
 	const res = await fetch('http://localhost:3000/data')
 	const data = await res.json()
-
+	console.log(data.logs)
 	let runNmbrs = []
 	Object.values(data.runs).forEach(value => {
 		let obj = {

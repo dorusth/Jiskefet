@@ -4,11 +4,12 @@ let fs = require("fs");
 let createData = () => {
     const data = {
         data: {
-            runs: []
+            runs: [],
+            logs: []
         }
     }
     // Create 500 items
-    for (let i = 0; i < 25; i++) {
+    for (let i = 0; i < 1; i++) {
         data.data.runs.push({
             runNumber: i,
             O2StartTime: "2018-11-30T20:25:42.000Z",
@@ -25,6 +26,23 @@ let createData = () => {
             nSubtimeFrames: null,
             bytesReadOut: Math.floor((Math.random() * 100) + 1),
             bytesTimeframeBuilder: Math.floor((Math.random() * 100) + 1)
+        })
+        data.data.logs.push({
+            logId: i,
+            subtype: "comment",
+            origin: "human",
+            creationTime: "2019-03-09T03:48:58.000Z",
+            title: "euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem",
+            body: "Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.",
+            subsystemFkSubsystemId: null,
+            announcementValidUntil: null,
+            commentFkParentLogId: null,
+            commentFkRootLogId: null,
+            user: {
+                userId: 1 + i,
+                externalUserId: Math.floor((Math.random() * 1000) + 1),
+                samsId: Math.floor((Math.random() * 1000) + 1)
+            }
         })
     }
     // return data
