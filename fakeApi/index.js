@@ -1,11 +1,13 @@
 // index.js
 module.exports = () => {
     const data = {
-        runs: []
+        data: {
+            runs: []
+        }
     }
     // Create 500 items
-    for (let i = 0; i < 20; i++) {
-        data.runs.push({
+    for (let i = 0; i < 25; i++) {
+        data.data.runs.push({
             runNumber: i,
             O2StartTime: "2018-11-30T20:25:42.000Z",
             TrgStartTime: "2018-10-21T07:47:59.000Z",
@@ -14,7 +16,7 @@ module.exports = () => {
             activityId: "XZTDsgV4SiVPHFfZ",
             runType: "PHYSICS",
             runQuality: Math.floor((Math.random() * 100) + 1),
-            nDetectors: Math.floor((Math.random() * 10 ) + 1 ),
+            nDetectors: Math.floor((Math.random() * 10) + 1),
             nFlps: Math.floor((Math.random() * 100) + 1),
             nEpns: Math.floor((Math.random() * 100) + 1),
             nTimeframes: null,
