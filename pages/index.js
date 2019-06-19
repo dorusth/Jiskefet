@@ -1,6 +1,8 @@
 import Link from 'next/link'
 import Main from '../layouts/main'
-import BarChart from '../components/barChart'
+import {
+  BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend,
+} from 'recharts';
 import fetch from 'isomorphic-unfetch'
 
 const Index = props => (
@@ -37,7 +39,7 @@ const Index = props => (
 					</table>
 			    </div>
 				<div className="col s12 z-depth-1 rounded">
-					<h3 className="center">Failed logs</h3>
+					<h3 className="center">Most important</h3>
 					<table className="highlight">
 						<thead>
 							<tr>
@@ -96,15 +98,28 @@ const Index = props => (
 				</div>
 				<div className="col s12 z-depth-1 rounded">
 					<h3 id="dataVis" className="center">Datavis</h3>
-					<p>Hier komt datavis</p>
-					<BarChart data={[5, 10, 1, 3]} size={[250, 250]} />
+      <BarChart
+        width={600}
+        height={300}
+		data={props.runNmbrs}
+        margin={{
+          top: 10, right: 30, left: 20, bottom: 10,
+        }}
+      >
+        <CartesianGrid strokeDasharray="3 3" />
+        <XAxis dataKey="runNumber" />
+        <YAxis dataKey="runQuality" />
+        <Tooltip />
+        <Legend />
+        <Bar dataKey="runQuality" fill="#8884d8" />
+      </BarChart>
 				</div>
 			</div>
 			<div className="row col s6">
 				<div className="col s12 z-depth-1 rounded">
 					<h3 className="center">New log</h3>
 					<form className="col s12" action="" method="post">
-							<label for="log_name">Enter a title</label>
+							<label>Enter a title</label>
 							<input placeholder="title for log" type="text" id="log_name"></input>
 					</form>
 				</div>
@@ -113,20 +128,20 @@ const Index = props => (
 	</Main>
 );
 
-
-
 Index.getInitialProps = async function() {
 	const res = await fetch('http://localhost:3000/item')
 	const data = await res.json()
-
-
-	await Object.values(data).forEach(value => {
-		console.log(value.runNumber)
-		//use value here
+	let runNmbrs = []
+	Object.values(data).forEach(value => {
+		let obj = {
+			runNumber: value.runNumber,
+			runQuality: value.runQuality
+		}
+		runNmbrs.push(obj)
 	});
 
 	return {
-		data
+		runNmbrs
 	}
 }
 export default Index;
