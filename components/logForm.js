@@ -1,6 +1,21 @@
 import TextArea from 'react-mention-plugin';
+import { thisExpression } from '@babel/types';
 
 class LogForm extends React.Component {
+      state = { log: '', action: '' }
+
+      constructor(props){
+          super(props)
+          this.handleLogChange = this.handleLogChange.bind(this)
+          this.handleActionChange = this.handleActionChange.bind(this)
+    }
+
+        handleLogChange(event) {
+            this.setState({ log: event.target.value });
+        }
+        handleActionChange(event){
+            this.setState({ action: event.target.value });
+        }
 
     render() {
         const suggestions = [
@@ -32,7 +47,7 @@ class LogForm extends React.Component {
 
                         <div>
                             <label>What are you going to write a log about?</label>
-                            <select>
+                            <select value={this.state.value} onChange={this.handleLogChange}>
                                 <option value="hardware">Hardware</option>
                                 <option value="software">Software</option>
                                 <option value="server">Server</option>
@@ -43,7 +58,7 @@ class LogForm extends React.Component {
 
                         <div>
                             <label>What is the action that happened?</label>
-                            <select>
+                            <select value={this.state.action} onChange={this.handleActionChange}>
                                 <option value="Succes">Succes</option>
                                 <option value="Failed">Failed</option>
                                 <option value="Error">Error</option>
@@ -56,7 +71,7 @@ class LogForm extends React.Component {
                         </div>
 
                         <div className="text-align-center">
-                            <p>This log is about..</p>
+                            <p>This log is about {this.state.action} in the {this.state.log}</p>
                         </div>
                         <div>
                             <label>Add extra tags</label>
