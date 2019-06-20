@@ -2,13 +2,15 @@ import TextArea from 'react-mention-plugin';
 import { thisExpression } from '@babel/types';
 
 class LogForm extends React.Component {
-      state = { log: '', action: '' }
-
-      constructor(props){
+      constructor(props) {
           super(props)
+          this.state = {
+              log: '...',
+              action: '...'
+          }
           this.handleLogChange = this.handleLogChange.bind(this)
           this.handleActionChange = this.handleActionChange.bind(this)
-    }
+        }
 
         handleLogChange(event) {
             this.setState({ log: event.target.value });
@@ -16,13 +18,15 @@ class LogForm extends React.Component {
         handleActionChange(event){
             this.setState({ action: event.target.value });
         }
-
+        handleSubmit(event){
+            event.preventDefault();
+        }
     render() {
         const suggestions = [
             {
-            id: 1,
-            value: 'barrel',
-            label: 'barrel'
+                id: 1,
+                value: 'barrel',
+                label: 'barrel'
             },
             {
                 id: 2,
@@ -39,7 +43,7 @@ class LogForm extends React.Component {
             <div className="row col s6">
                 <div className="rounded">
                     <h3 className="center">New log</h3>
-                    <form action="" method="post">
+                    <form action="" method="post" onSubmit={this.handleSubmit}>
                         <div>
                             <label>Enter a title</label>
                             <input placeholder="title for log" type="text" id="log_name" />
@@ -59,19 +63,19 @@ class LogForm extends React.Component {
                         <div>
                             <label>What is the action that happened?</label>
                             <select value={this.state.action} onChange={this.handleActionChange}>
-                                <option value="Succes">Succes</option>
-                                <option value="Failed">Failed</option>
-                                <option value="Error">Error</option>
-                                <option value="Movement physical">Movement physical</option>
-                                <option value="Movement digital">Movement digital</option>
-                                <option value="Installation">Installation</option>
-                                <option value="Update">Update</option>
-                                <option value="Other">Other..</option>
+                                <option value="succes">succes</option>
+                                <option value="failure">failure</option>
+                                <option value="error">error</option>
+                                <option value="movement physical">movement physical</option>
+                                <option value="movement digital">movement digital</option>
+                                <option value="installation">installation</option>
+                                <option value="update">update</option>
+                                <option value="other">other..</option>
                             </select>
                         </div>
 
                         <div className="text-align-center">
-                            <p>This log is about {this.state.action} in the {this.state.log}</p>
+                            <p>This log is about <b>{this.state.action}</b> in the <b>{this.state.log}</b></p>
                         </div>
                         <div>
                             <label>Add extra tags</label>
@@ -79,11 +83,7 @@ class LogForm extends React.Component {
                         </div>
                         <div>
                             <label>input logs</label>
-                            <input placeholder="tags" type="text" id="extra_tags" />
-                        </div>
-                        <div>
-                            <label>input logs</label>
-                            <input placeholder="tags" type="text" id="extra_tags" />
+                            <input placeholder="input logs" type="text" id="extra_tags" />
                         </div>
                         <div className="flex-column">
                             <label>Add files or select folder</label>
@@ -118,12 +118,23 @@ class LogForm extends React.Component {
                     border: 0 solid #979797;
                 }
                 input[type=submit]{
-                    background: #F57F17;
+                    background: #f39c12;
                     color: white;
                     height: 2.5em;
                     width: 12.5em;
                     border:none;
                     font-size: 18px;
+                    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+                    border-bottom: 3px solid #e8930c;
+                    cursor: pointer;
+                    -webkit-box-shadow: inset 0 -2px #e8930c;
+                    box-shadow: inset 0 -2px #e8930c;
+                }
+                input[type=submit]:active {
+                      top: 1px;
+                        outline: none;
+                        -webkit-box-shadow: none;
+                        box-shadow: none;
                 }
                 select{
                     display: block;
