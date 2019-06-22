@@ -1,25 +1,61 @@
 import TextArea from 'react-mention-plugin';
 import { thisExpression } from '@babel/types';
+import fetch from 'isomorphic-unfetch'
 
 class LogForm extends React.Component {
       constructor(props) {
           super(props)
           this.state = {
+              logId: "poepjes",
+              subType: '',
+              origin: '',
+              creationTime: '',
+              title: '',
+              body: '',
+              subsystemFkSubsystemId: null,
+              announcementValidUntil: null,
+              commentFkParentLogId: null,
+              commentFkRootLogId: null,
+              user: {
+                  userId: 1,
+                  externalUserId: 603,
+                  samsId: 829
+              },
               log: '...',
               action: '...'
           }
+          this.handleSubmit = this.handleSubmit.bind(this)
           this.handleLogChange = this.handleLogChange.bind(this)
           this.handleActionChange = this.handleActionChange.bind(this)
+          this.handleTitleChange = this.handleTitleChange.bind(this)
         }
 
         handleLogChange(event) {
             this.setState({ log: event.target.value });
+        }
+        handleTitleChange(event){
+            this.setState({ title: event.target.value})
         }
         handleActionChange(event){
             this.setState({ action: event.target.value });
         }
         handleSubmit(event){
             event.preventDefault();
+
+            // psuedo code
+            // - fetch the db.json
+            // - loop through the logs array
+            // - add the newly created log object from the frontend form to this array
+            // - write this all together to the db.json file.
+            fetch('http://localhost:3000/data', {
+                method: 'post',
+                body: JSON.stringify(this.state),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            }).then(res => res.json())
+                .then(response => console.log('Success:', JSON.stringify(response)))
+                .catch(error => console.error('Error:', error));
         }
     render() {
         const suggestions = [
@@ -46,7 +82,7 @@ class LogForm extends React.Component {
                     <form action="" method="post" onSubmit={this.handleSubmit}>
                         <div>
                             <label>Enter a title</label>
-                            <input placeholder="title for log" type="text" id="log_name" />
+                            <input onChange={this.handleTitleChange} value={this.state.title} placeholder="title for log" type="text" id="log_name" />
                         </div>
 
                         <div>

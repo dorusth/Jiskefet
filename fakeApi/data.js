@@ -9,7 +9,7 @@ let createData = () => {
         }
     }
     // Create 500 items
-    for (let i = 0; i < 1; i++) {
+    for (let i = 0; i < 20; i++) {
         data.data.runs.push({
             runNumber: i,
             O2StartTime: "2018-11-30T20:25:42.000Z",
