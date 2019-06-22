@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/dorusth/Jiskefet#readme",
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
     "d3": "^5.9.2",
     "d3-array": "2.2.0",
     "d3-axis": "1.0.12",
@@ -39,6 +40,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-faux-dom": "^4.5.0",
+    "react-mention-plugin": "^2.1.3",
     "react-scripts": "^3.0.1",
     "recharts": "^1.6.2",
     "request": "^2.88.0"

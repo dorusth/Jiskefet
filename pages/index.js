@@ -4,6 +4,7 @@ import {
   BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend,
 } from 'recharts';
 import fetch from 'isomorphic-unfetch'
+import LogForm from '../components/logForm'
 
 const Index = props => (
 	<Main>
@@ -68,35 +69,6 @@ const Index = props => (
 					</table>
 			    </div>
 				<div className="col s12 z-depth-1 rounded">
-					<h3 className="center">Failed tests</h3>
-					<table className="highlight">
-						<thead>
-							<tr>
-								<th>Title</th>
-								<th>Author</th>
-								<th>Time</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Log #1</td>
-								<td>Bas Smit</td>
-								<td>09:00 PM</td>
-							</tr>
-							<tr>
-								<td>Log #2</td>
-								<td>Bas Smit</td>
-								<td>09:00 PM</td>
-							</tr>
-							<tr>
-								<td>Log #3</td>
-								<td>Bas Smit</td>
-								<td>09:00 PM</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-				<div className="col s12 z-depth-1 rounded">
 					<h3 id="dataVis" className="center">Datavis</h3>
       <BarChart
         width={600}
@@ -115,15 +87,7 @@ const Index = props => (
       </BarChart>
 				</div>
 			</div>
-			<div className="row col s6">
-				<div className="col s12 z-depth-1 rounded">
-					<h3 className="center">New log</h3>
-					<form className="col s12" action="" method="post">
-							<label>Enter a title</label>
-							<input placeholder="title for log" type="text" id="log_name"></input>
-					</form>
-				</div>
-			</div>
+			<LogForm />
 		</div>
 	</Main>
 );
@@ -131,7 +95,6 @@ const Index = props => (
 Index.getInitialProps = async function() {
 	const res = await fetch('http://localhost:3000/data')
 	const data = await res.json()
-	console.log(data.logs)
 	let runNmbrs = []
 	Object.values(data.runs).forEach(value => {
 		let obj = {

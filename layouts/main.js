@@ -10,6 +10,7 @@ class Main extends React.Component {
 			 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
 			 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 			 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+			<link href="static/textarea.css" rel="stylesheet" />
 			 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 		 </Head>
 		 <Nav></Nav>
