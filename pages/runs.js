@@ -20,10 +20,16 @@ class Runs extends React.Component{
     render(){
         return(
             <Main>
-                <LogBar/>
+                <LogBar>
+                    <div className="col s3 left">
+                        <form className="valign-wrapper">
+                            <input className="col s6 noMargin white border" type="text" placeholder="Search runs"/>
+                        </form>
+                    </div>
+                </LogBar>
                 <div className="container">
-                    <table>
-                        <thead className="white-text indigo lighten-3 container">
+                    <table className="striped">
+                        <thead className="white-text indigo accent-1 container">
                             <tr>
                                 <th>Run number</th>
                                 <th>Time trg start</th>
@@ -59,7 +65,7 @@ class Runs extends React.Component{
                         {this.props.data.runs.map((run, key)=>{
                             return(
                                 <tr key={key}>
-                                    <td>{run.runNumber}</td>
+                                    <td><p className="runId center teal darken-3">{run.runNumber}</p></td>
                                     <td>{moment(run.TrgStartTime).format('YYYY-MM-D')}<br/>{moment(run.TrgStartTime).format('HH:mm:ss ')}</td>
                                     <td>{moment(run.TrgEndTime).format('YYYY-MM-D')}<br/>{moment(run.TrgEndTime).format('HH:mm:ss ')}</td>
                                     <td>{Math.floor(Math.random() * 6)}</td>
@@ -81,6 +87,28 @@ class Runs extends React.Component{
                 th{
                     font-weight: 100;
                     border-radius:0;
+                }
+                tr{
+                    position: relative;
+                }
+                td{
+                    position: relative
+                }
+                .runId{
+                    position: absolute;
+                    width: 4em;
+                    top: 0;
+                    left: 0;
+                    margin: 0;
+                    color: white;
+                }
+                .border{
+                    border: 1px solid lightgray !important;
+                }
+                .noMargin{
+                    padding: 0 .5em !important;
+                    height: 2em !important;
+                    margin: .5em .5em .5em -1em !important;
                 }
 
             `}</style>

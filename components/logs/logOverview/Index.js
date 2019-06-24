@@ -52,7 +52,7 @@ class LogOverview extends React.Component{
 
     Tab = (props) =>{
         return(
-            <li className="tab col s2"><a href="#" id={props.count} className={props.active} onClick={this.updateCurrent}>{props.name}</a></li>
+            <li className="tab col s2"><a href="#" id={props.count} className={"white-text "+props.active} onClick={this.updateCurrent}>{props.name}</a></li>
         )
     }
 
@@ -61,7 +61,7 @@ class LogOverview extends React.Component{
             <div className="col s8 container">
                 <div className="row">
                     <div className="col s12">
-                        <ul className="tabs z-depth-1">
+                        <ul className="tabs z-depth-1 indigo accent-1">
                             {this.state.tabs.map((tab, key)=>{
                                 return(
                                     <this.Tab count={tab.count} active={this.checkActive(tab.count)} name={tab.name} key={key}/>
@@ -89,7 +89,7 @@ class LogOverview extends React.Component{
                         {this.props.data.logs.map((log,key)=>{
                             return(
                                 <div className="col s12 blue-grey lighten-5 logTile valign-wrapper" key={key} id={log.logId} onClick={this.props.handleSelectedLog}>
-                                    <p className="id black t-white" key={key}>{log.logId}</p>
+                                    <p className="id teal darken-3 t-white" key={key}>{log.logId}</p>
                                     <p className="col s7 offset-s1">{log.title}</p>
                                     <div className="logger col s2 center">
                                         <p>{log.user.userId}</p>
