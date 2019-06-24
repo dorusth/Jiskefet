@@ -44,7 +44,7 @@ class LogPreview extends React.Component {
 
     LogTab = (props) =>{
         return(
-            <li className="tab col s3"><a href="#" id={props.count} className={props.active} onClick={this.updateCurrent}>{props.name}</a></li>
+            <li className="tab col s3 "><a href="#" id={props.count} className={"white-text "+props.active} onClick={this.updateCurrent}>{props.name}</a></li>
         )
     }
 
@@ -74,7 +74,7 @@ class LogPreview extends React.Component {
                 </div>
                 <div className="row">
                     <div className="col s12">
-                        <ul className="tabs z-depth-1">
+                        <ul className="tabs z-depth-1 indigo accent-1">
                             {this.state.tabs.map((tab, key)=>{
                                 return(
                                     <this.LogTab count={tab.count} active={this.checkActive(tab.count)} name={tab.name} key={key}/>
