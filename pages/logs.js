@@ -36,7 +36,7 @@ class Logs extends React.Component {
 	}
 
 	static async getInitialProps() {
-		const res = await fetch('http://localhost:3000/logs',{
+		const res = await fetch('http://localhost:3000/data',{
 			headers:{
 				"Authorization": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibG9jYWxUZXN0VG9rZW4iLCJpYXQiOjE1NTk1NjQ3ODAsImV4cCI6MTU5MTEwMDc4MH0.8j1NowO7zSRkRraUUiqaeVYsS9tAq7LVZOtLfQqbxc0"
 			}
@@ -48,14 +48,14 @@ class Logs extends React.Component {
 	}
 
 	async setCurrentPreview(){
-		const res = await fetch('http://localhost:3000/logs/'+this.state.selectedLog,{
+		const res = await fetch('http://localhost:3000/data',{
 			headers:{
 				"Authorization": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibG9jYWxUZXN0VG9rZW4iLCJpYXQiOjE1NTk1NjQ3ODAsImV4cCI6MTU5MTEwMDc4MH0.8j1NowO7zSRkRraUUiqaeVYsS9tAq7LVZOtLfQqbxc0"
 			}
 		})
 		const currentPreview = await res.json()
 		this.setState({
-			currentPreview: currentPreview.data.item
+			currentPreview: currentPreview.logs[this.state.selectedLog]
 		})
 	}
 

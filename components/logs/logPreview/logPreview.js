@@ -49,7 +49,7 @@ class LogPreview extends React.Component {
     }
 
     render(){
-        
+        console.log(this.props.data)
         return(
             <div className=" container col s4 blue-grey lighten-5">
                 <h2>{this.props.data.title}</h2>

@@ -18,7 +18,6 @@ class Runs extends React.Component{
 	}
 
     render(){
-        console.log(this.props.data.runs)
         return(
             <Main>
                 <LogBar/>

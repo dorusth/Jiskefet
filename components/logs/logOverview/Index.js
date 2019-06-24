@@ -70,7 +70,23 @@ class LogOverview extends React.Component{
                         </ul>
                     </div>
                     <div className="container">
-                        {this.props.data.data.items.map((log,key)=>{
+                        {/* {this.props.data.data.items.map((log,key)=>{
+                            return(
+                                <div className="col s12 blue-grey lighten-5 logTile valign-wrapper" key={key} id={log.logId} onClick={this.props.handleSelectedLog}>
+                                    <p className="id black t-white" key={key}>{log.logId}</p>
+                                    <p className="col s7 offset-s1">{log.title}</p>
+                                    <div className="logger col s2 center">
+                                        <p>{log.user.userId}</p>
+                                        <p className="grey darken-2 t-white">{log.origin}</p>
+                                    </div>
+                                    <div className="logger col s2 center">
+                                        <p>5 min</p>
+                                        <p className="grey darken-2 t-white">{log.subtype}</p>
+                                    </div>
+                                </div>
+                            )
+                        })} */}
+                        {this.props.data.logs.map((log,key)=>{
                             return(
                                 <div className="col s12 blue-grey lighten-5 logTile valign-wrapper" key={key} id={log.logId} onClick={this.props.handleSelectedLog}>
                                     <p className="id black t-white" key={key}>{log.logId}</p>
