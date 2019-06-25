@@ -1,12 +1,13 @@
 import TextArea from 'react-mention-plugin';
 import { thisExpression } from '@babel/types';
 import fetch from 'isomorphic-unfetch'
+import postData from './helpers/postData'
 
 class LogForm extends React.Component {
       constructor(props) {
           super(props)
           this.state = {
-              logId: "poepjes",
+              logId: '',
               subType: '',
               origin: '',
               creationTime: '',
@@ -41,22 +42,32 @@ class LogForm extends React.Component {
         }
         handleSubmit(event){
             event.preventDefault();
-
-            // psuedo code
-            // - fetch the db.json
-            // - loop through the logs array
-            // - add the newly created log object from the frontend form to this array
-            // - write this all together to the db.json file.
-            fetch('http://localhost:3000/data', {
-                method: 'post',
-                body: JSON.stringify(this.state),
-                headers: {
-                    'Content-Type': 'application/json'
-                }
-            }).then(res => res.json())
-                .then(response => console.log('Success:', JSON.stringify(response)))
-                .catch(error => console.error('Error:', error));
+            let newData = this.state
+            fetch('http://localhost:3000/data')
+                .then(function (response) {
+                    if (response.status >= 400) {
+                        throw new Error("Bad response from server");
+                    }
+                    return response.json();
+                })
+                .then(function (data) {
+                    let logData = []
+                    Object.values(data.logs).forEach(log => {
+                        logData.push(log)
+                    })
+                    logData.push(newData)
+                    let newObj = {
+                            runs: data.runs,
+                            logs: logData
+                    }
+                    return newObj
+                })
+                .then(function(newObj){
+                    postData(newObj)
+                    // Hier kan de post request komen
+                })
         }
+
     render() {
         const suggestions = [
             {
@@ -79,7 +90,7 @@ class LogForm extends React.Component {
             <div className="row col s6">
                 <div className="rounded">
                     <h3 className="center">New log</h3>
-                    <form action="" method="post" onSubmit={this.handleSubmit}>
+                    <form action="http://localhost:3000/data" method="post" onSubmit={this.handleSubmit}>
                         <div>
                             <label>Enter a title</label>
                             <input onChange={this.handleTitleChange} value={this.state.title} placeholder="title for log" type="text" id="log_name" />
@@ -137,6 +148,10 @@ class LogForm extends React.Component {
                             <input type="submit" value="Create new log" />
                         </div>
                     </form>
+                    <div id="toastDiv">
+                        <ul id="toastList">
+                        </ul>
+                    </div>
                 </div>
                 <style global jsx>{`
                 [type="checkbox"]:checked {
@@ -192,6 +207,43 @@ class LogForm extends React.Component {
                     flex-direction: row;
                     padding-top: 1em;
                     padding-bottom: 1em;
+                }
+                .toastLi {
+                    overflow: hidden;
+                    margin: 1em;
+                    border-radius: 7.5px;
+                    width: 20em;
+                    background-color: green;
+                    color: white;
+                    padding: 1.25em;
+                    animation: fade-out 2.5s;
+                    animation-delay: 3.5s;
+                    animation-fill-mode: forwards;
+                }
+                #toastList {
+                        position: fixed;
+                        top: 65%;
+                        text-align: left;
+                        width: 10em;
+                        right: 5%;
+                }
+                @keyframes fade-out{
+                   0% {
+                    }
+                    10% {
+                        transform: translateX(200px);
+                    }
+
+                    25% {
+                        opacity: 0;
+                    }
+                    100% {
+                        opacity: 0;
+                      height: 0;
+                      margin: 0;
+                      transform: translateX(800px);
+                      padding: 0;
+                    }
                 }
                 `}</style>
             </div>
