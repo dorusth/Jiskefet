@@ -64,7 +64,6 @@ class LogForm extends React.Component {
                 })
                 .then(function(newObj){
                     postData(newObj)
-                    // Hier kan de post request komen
                 })
         }
 
