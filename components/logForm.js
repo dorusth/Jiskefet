@@ -23,7 +23,8 @@ class LogForm extends React.Component {
                   samsId: 829
               },
               log: '...',
-              action: '...'
+              action: '...',
+              loading: "hidden"
           }
           this.handleSubmit = this.handleSubmit.bind(this)
           this.handleLogChange = this.handleLogChange.bind(this)
@@ -42,29 +43,34 @@ class LogForm extends React.Component {
         }
         handleSubmit(event){
             event.preventDefault();
-            let newData = this.state
-            fetch('http://localhost:3000/data')
-                .then(function (response) {
-                    if (response.status >= 400) {
-                        throw new Error("Bad response from server");
-                    }
-                    return response.json();
-                })
-                .then(function (data) {
-                    newData.logId = data.logs.length
-                    let logData = []
-                    Object.values(data.logs).forEach(log => {
-                        logData.push(log)
+            this.setState({loading: "vis"},()=>{
+                let newData = this.state
+                fetch('http://localhost:3000/data')
+                    .then(function (response) {
+                        if (response.status >= 400) {
+                            throw new Error("Bad response from server");
+                        }
+                        return response.json();
                     })
-                    logData.push(newData)
-                    let newObj = {
-                            runs: data.runs,
-                            logs: logData
-                    }
-                    return newObj
-                })
-                .then(function(newObj){
-                    postData(newObj)
+                    .then(function (data) {
+                        newData.logId = data.logs.length
+                        let logData = []
+                        Object.values(data.logs).forEach(log => {
+                            logData.push(log)
+                        })
+                        logData.push(newData)
+                        let newObj = {
+                                runs: data.runs,
+                                logs: logData
+                        }
+                        return newObj
+                    })
+                    .then(function(newObj){
+                        setTimeout(()=>{ postData(newObj) }, 2000);//timeout for demo only
+                    })
+                    .then(()=>{
+                        setTimeout(()=>{ this.setState({loading: "hidden"}) }, 2300); //timeout for demo only
+                    })
                 })
         }
 
@@ -146,6 +152,9 @@ class LogForm extends React.Component {
                         </div>
                         <div>
                             <input type="submit" value="Create new log" />
+                            <div className={"progress indigo lighten-4 " + this.state.loading}>
+                                <div className="indeterminate indigo lighten-1"></div>
+                            </div>
                         </div>
                     </form>
                     <div id="toastDiv">
@@ -244,6 +253,9 @@ class LogForm extends React.Component {
                       transform: translateX(800px);
                       padding: 0;
                     }
+                }
+                .hidden{
+                    display: none;
                 }
                 `}</style>
             </div>
