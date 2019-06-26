@@ -8,7 +8,7 @@ class LogForm extends React.Component {
           super(props)
           this.state = {
               logId: '',
-              subType: '',
+              subType: 'comment',
               origin: '',
               creationTime: '',
               title: '',
@@ -51,6 +51,7 @@ class LogForm extends React.Component {
                     return response.json();
                 })
                 .then(function (data) {
+                    newData.logId = data.logs.length
                     let logData = []
                     Object.values(data.logs).forEach(log => {
                         logData.push(log)

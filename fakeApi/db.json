@@ -739,6 +739,310 @@
         },
         "log": "...",
         "action": "..."
+      },
+      {
+        "logId": "",
+        "subType": "",
+        "origin": "",
+        "creationTime": "",
+        "title": "Marcel",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "electricity",
+        "action": "movement physical"
+      },
+      {
+        "logId": "",
+        "subType": "",
+        "origin": "",
+        "creationTime": "",
+        "title": "Marcel",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "electricity",
+        "action": "movement physical"
+      },
+      {
+        "logId": "",
+        "subType": "",
+        "origin": "",
+        "creationTime": "",
+        "title": "Marcel",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "electricity",
+        "action": "movement physical"
+      },
+      {
+        "logId": "",
+        "subType": "",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "..."
+      },
+      {
+        "logId": "",
+        "subType": "",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "..."
+      },
+      {
+        "logId": "",
+        "subType": "",
+        "origin": "",
+        "creationTime": "",
+        "title": "Quark matter escalated",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "electricity",
+        "action": "movement physical"
+      },
+      {
+        "logId": "",
+        "subType": "",
+        "origin": "",
+        "creationTime": "",
+        "title": "Quark matter escalated",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "electricity",
+        "action": "movement physical"
+      },
+      {
+        "logId": "",
+        "subType": "",
+        "origin": "",
+        "creationTime": "",
+        "title": "Quark matter escalated",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "electricity",
+        "action": "movement physical"
+      },
+      {
+        "logId": "",
+        "subType": "",
+        "origin": "",
+        "creationTime": "",
+        "title": "Quark matter escalated",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "boards",
+        "action": "movement physical"
+      },
+      {
+        "logId": "",
+        "subType": "",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "..."
+      },
+      {
+        "logId": "",
+        "subType": "",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "..."
+      },
+      {
+        "logId": "",
+        "subType": "",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "..."
+      },
+      {
+        "logId": "",
+        "subType": "",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "..."
+      },
+      {
+        "logId": "",
+        "subType": "",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "..."
+      },
+      {
+        "logId": 37,
+        "subType": "",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "..."
+      },
+      {
+        "logId": 38,
+        "subType": "",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "..."
       }
     ]
   }
