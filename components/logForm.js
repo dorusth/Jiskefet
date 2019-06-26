@@ -8,7 +8,7 @@ class LogForm extends React.Component {
           super(props)
           this.state = {
               logId: '',
-              subType: '',
+              subType: 'comment',
               origin: '',
               creationTime: '',
               title: '',
