@@ -43,7 +43,7 @@ class Logs extends React.Component {
 		})
 		const data = await res.json()
 		return{
-				data
+				data: data.logs.reverse()
 		}
 	}
 
