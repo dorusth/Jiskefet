@@ -19,7 +19,7 @@ class Runs extends React.Component{
 
     render(){
         return(
-            <Main>
+            <Main runs="active">
                 <LogBar>
                     <div className="col s3 left">
                         <form className="valign-wrapper">
