@@ -13,7 +13,7 @@ class Main extends React.Component {
 			<link href="static/textarea.css" rel="stylesheet" />
 			 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 		 </Head>
-		 <Nav></Nav>
+		 <Nav dashboard={this.props.dashboard} logs={this.props.logs} runs={this.props.runs}></Nav>
 		 {this.props.children}
 		 <style global jsx>{`
 			.container{

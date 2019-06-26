@@ -69,7 +69,7 @@ class Logs extends React.Component {
 
 	render(){
 		return(
-			<Main>
+			<Main logs="active">
 				<LogBar />
 				<div className="row">
 						<LogOverview data={this.props.data} handleSelectedLog={this.handleSelectedLog} />

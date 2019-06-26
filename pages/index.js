@@ -7,7 +7,7 @@ import fetch from 'isomorphic-unfetch'
 import LogForm from '../components/logForm'
 
 const Index = props => (
-	<Main>
+	<Main dashboard="active">
 		<div className="container row">
 			<div className="row col s6">
 				<div className="col s12 z-depth-1 rounded">
