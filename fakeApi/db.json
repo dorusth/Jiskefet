@@ -1043,6 +1043,662 @@
         },
         "log": "...",
         "action": "..."
+      },
+      {
+        "logId": 39,
+        "subType": "comment",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "..."
+      },
+      {
+        "logId": 40,
+        "subType": "comment",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "..."
+      },
+      {
+        "logId": 41,
+        "subType": "comment",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "..."
+      },
+      {
+        "logId": 42,
+        "subType": "comment",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "..."
+      },
+      {
+        "logId": 43,
+        "subType": "comment",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "...",
+        "loading": "hidden"
+      },
+      {
+        "logId": 44,
+        "subType": "comment",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "...",
+        "loading": "hidden"
+      },
+      {
+        "logId": 45,
+        "subType": "comment",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "...",
+        "loading": "hidden"
+      },
+      {
+        "logId": 46,
+        "subType": "comment",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "...",
+        "loading": "hidden"
+      },
+      {
+        "logId": 47,
+        "subType": "comment",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "...",
+        "loading": "hidden"
+      },
+      {
+        "logId": 48,
+        "subType": "comment",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "...",
+        "loading": "hidden"
+      },
+      {
+        "logId": 49,
+        "subType": "comment",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "...",
+        "loading": "hidden"
+      },
+      {
+        "logId": 50,
+        "subType": "comment",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "...",
+        "loading": "hidden"
+      },
+      {
+        "logId": 51,
+        "subType": "comment",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "...",
+        "loading": "vis"
+      },
+      {
+        "logId": 52,
+        "subType": "comment",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "...",
+        "loading": "vis"
+      },
+      {
+        "logId": 53,
+        "subType": "comment",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "...",
+        "loading": "vis"
+      },
+      {
+        "logId": 54,
+        "subType": "comment",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "...",
+        "loading": "vis"
+      },
+      {
+        "logId": 55,
+        "subType": "comment",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "...",
+        "loading": "vis"
+      },
+      {
+        "logId": 56,
+        "subType": "comment",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "...",
+        "loading": "vis"
+      },
+      {
+        "logId": 57,
+        "subType": "comment",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "...",
+        "loading": "vis"
+      },
+      {
+        "logId": 58,
+        "subType": "comment",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "...",
+        "loading": "vis"
+      },
+      {
+        "logId": 59,
+        "subType": "comment",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "...",
+        "loading": "vis"
+      },
+      {
+        "logId": 60,
+        "subType": "comment",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "...",
+        "loading": "vis"
+      },
+      {
+        "logId": 61,
+        "subType": "comment",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "...",
+        "loading": "vis"
+      },
+      {
+        "logId": 62,
+        "subType": "comment",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "...",
+        "loading": "vis"
+      },
+      {
+        "logId": 63,
+        "subType": "comment",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "...",
+        "loading": "vis"
+      },
+      {
+        "logId": 64,
+        "subType": "comment",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "...",
+        "loading": "vis"
+      },
+      {
+        "logId": 65,
+        "subType": "comment",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "...",
+        "loading": "vis"
+      },
+      {
+        "logId": 66,
+        "subType": "comment",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "...",
+        "loading": "vis"
+      },
+      {
+        "logId": 67,
+        "subType": "comment",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "...",
+        "loading": "vis"
+      },
+      {
+        "logId": 68,
+        "subType": "comment",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "...",
+        "loading": "vis"
+      },
+      {
+        "logId": 69,
+        "subType": "comment",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "...",
+        "loading": "vis"
+      },
+      {
+        "logId": 70,
+        "subType": "comment",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "...",
+        "loading": "vis"
+      },
+      {
+        "logId": 71,
+        "subType": "comment",
+        "origin": "",
+        "creationTime": "",
+        "title": "",
+        "body": "",
+        "subsystemFkSubsystemId": null,
+        "announcementValidUntil": null,
+        "commentFkParentLogId": null,
+        "commentFkRootLogId": null,
+        "user": {
+          "userId": 1,
+          "externalUserId": 603,
+          "samsId": 829
+        },
+        "log": "...",
+        "action": "...",
+        "loading": "vis"
       }
     ]
   }
