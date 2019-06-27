@@ -10,7 +10,7 @@ class LogForm extends React.Component {
               logId: '',
               subType: 'comment',
               origin: '',
-              creationTime: '',
+              creationTime: new Date().toUTCString(),
               title: '',
               body: '',
               subsystemFkSubsystemId: null,
@@ -66,7 +66,7 @@ class LogForm extends React.Component {
                         return newObj
                     })
                     .then(function(newObj){
-                        setTimeout(()=>{ postData(newObj) }, 2000);//timeout for demo only
+                        setTimeout(() => { postData(newObj) }, 2000);//timeout for demo only
                     })
                     .then(()=>{
                         setTimeout(()=>{ this.setState({loading: "hidden"}) }, 2300); //timeout for demo only

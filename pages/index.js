@@ -5,6 +5,7 @@ import {
 } from 'recharts';
 import fetch from 'isomorphic-unfetch'
 import LogForm from '../components/logForm'
+import LogTable from '../components/tables/logTable'
 
 const Index = props => (
 	<Main dashboard="active">
@@ -12,32 +13,7 @@ const Index = props => (
 			<div className="row col s6">
 				<div className="col s12 z-depth-1 rounded">
 					<h3 className="center">Most Recent logs</h3>
-			    	<table className="highlight">
-						<thead>
-							<tr>
-								<th>Title</th>
-								<th>Author</th>
-								<th>Time</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Log #1</td>
-								<td>Bas Smit</td>
-								<td>09:00 PM</td>
-							</tr>
-							<tr>
-								<td>Log #2</td>
-								<td>Bas Smit</td>
-								<td>09:00 PM</td>
-							</tr>
-							<tr>
-								<td>Log #3</td>
-								<td>Bas Smit</td>
-								<td>09:00 PM</td>
-							</tr>
-						</tbody>
-					</table>
+			    	<LogTable data={props.dataLogs} />
 			    </div>
 				<div className="col s12 z-depth-1 rounded">
 					<h3 className="center">Most important</h3>
@@ -95,6 +71,7 @@ const Index = props => (
 Index.getInitialProps = async function() {
 	const res = await fetch('http://localhost:3000/data')
 	const data = await res.json()
+	const dataLogs = data.logs
 	let runNmbrs = []
 	Object.values(data.runs).forEach(value => {
 		let obj = {
@@ -104,7 +81,7 @@ Index.getInitialProps = async function() {
 		runNmbrs.push(obj)
 	});
 	return {
-		runNmbrs
+		runNmbrs, dataLogs
 	}
 }
 export default Index;
